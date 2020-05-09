@@ -64,4 +64,40 @@ module.exports = {
               `300`,
               `300i`,
               `400`,
-              `
+              `400i`,
+              `500`,
+              `500i`,
+              `700`,
+              `700i`,
+              `900`,
+              `900i`,
+            ],
+          },
+          {
+            family: `Poppins`,
+            variants: [`300`, `400`, `500`, `600`, `700`],
+          },
+          {
+            family: `Lato`,
+            variants: [`300`, `400`, `700`],
+          },
+          {
+            family: `Open Sans`,
+            variants: [`300`, `400`, `600`, `700`, `800`],
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `qhk0encle6so`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.app/offline
+    // 'gatsby-plugin-offline',
+  ],
+};
