@@ -39,4 +39,39 @@ exports.createPages = ({ graphql, actions }) => {
     const posts = result.data.allContentfulBlog.edges
 
     posts.forEach((post, index) => {
-      const previous = ind
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node
+      const next = index === 0 ? null : posts[index - 1].node
+
+      createPage({
+        path: `/blog/${post.node.slug}`,
+        component: blogPost,
+        context: {
+          slug: post.node.slug,
+          previous,
+          next,
+          tag: post.node.tags.map(tag => tag.tagName),
+        },
+      })
+    })
+
+    // Create blog post list pages
+    const postsPerPage = 6
+    const numPages = Math.ceil(posts.length / postsPerPage)
+
+    Array.from({ length: numPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `/page/1` : `/page/${i + 1}`,
+        component: blogList,
+        context: {
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
+        },
+      })
+    })
+
+    return null
+  })
+}
+
