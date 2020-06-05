@@ -135,4 +135,33 @@
 .flaticon-annonymous:before {
   content: '\f122';
 }
-.flaticon-
+.flaticon-group:before {
+  content: '\f123';
+}
+.flaticon-prototype:before {
+  content: '\f124';
+}
+.flaticon-code:before {
+  content: '\f125';
+}
+.flaticon-vectors:before {
+  content: '\f126';
+}
+.flaticon-export:before {
+  content: '\f127';
+}
+.flaticon-hourglass:before {
+  content: '\f128';
+}
+.flaticon-trophy-1:before {
+  content: '\f129';
+}
+.flaticon-upload:before {
+  content: '\f12a';
+}
+.flaticon-settings:before {
+  content: '\f12b';
+}
+.flaticon-strategy:before {
+  content: '\f12c';
+}
