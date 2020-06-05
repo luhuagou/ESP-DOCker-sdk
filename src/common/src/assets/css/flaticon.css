@@ -79,4 +79,60 @@
   content: '\f10f';
 }
 .flaticon-link:before {
-  content: '\
+  content: '\f110';
+}
+.flaticon-battery:before {
+  content: '\f111';
+}
+.flaticon-stopwatch:before {
+  content: '\f112';
+}
+.flaticon-stopwatch-1:before {
+  content: '\f113';
+}
+.flaticon-objective:before {
+  content: '\f114';
+}
+.flaticon-facebook-logo:before {
+  content: '\f115';
+}
+.flaticon-twitter-logo-silhouette:before {
+  content: '\f116';
+}
+.flaticon-instagram:before {
+  content: '\f117';
+}
+.flaticon-dribble-logo:before {
+  content: '\f118';
+}
+.flaticon-tumblr-logo:before {
+  content: '\f119';
+}
+.flaticon-youtube:before {
+  content: '\f11a';
+}
+.flaticon-google-plus:before {
+  content: '\f11b';
+}
+.flaticon-blockchain:before {
+  content: '\f11c';
+}
+.flaticon-money-bag:before {
+  content: '\f11d';
+}
+.flaticon-wallet:before {
+  content: '\f11e';
+}
+.flaticon-security:before {
+  content: '\f11f';
+}
+.flaticon-bitcoin:before {
+  content: '\f120';
+}
+.flaticon-blockchain-1:before {
+  content: '\f121';
+}
+.flaticon-annonymous:before {
+  content: '\f122';
+}
+.flaticon-
