@@ -130,4 +130,30 @@
 	.st124{fill:url(#SVGID_68_);}
 	.st125{fill:url(#SVGID_69_);}
 	.st126{fill:url(#SVGID_70_);}
-	.st127{f
+	.st127{fill:url(#SVGID_71_);}
+	.st128{opacity:0.1;fill-rule:evenodd;clip-rule:evenodd;fill:#FCFAFA;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="241.7097" y1="2.1825" x2="1429.2256" y2="1431.0215">
+	<stop  offset="4.215828e-02" style="stop-color:#6E4DFE"/>
+	<stop  offset="1" style="stop-color:#6A55FF"/>
+</linearGradient>
+<rect class="st0" width="1600" height="1347.9"/>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<polygon class="st1" points="1164.3,575.4 979.7,682.7 964.8,674.1 1149.4,566.8 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path class="st2" d="M1514,1009.3l-81.5,47.4c-30,17.4-78.8,17.4-108.9,0l-42.1-24.3l135.8-78.9L1514,1009.3z"/>
+				</g>
+			</g>
+			<g>
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="1339.0033" y1="1010.5792" x2="983.9764" y2="211.7688">
+					<stop  offset="0" style="stop-color:#542488"/>
+					<stop  offset="1" style="stop-color:#151B4E"/>
+				</linearGradient>
+				<polygon class="st3" points="1259.7,848.4 1271.2,841.7 1259.2,834.8 1259,
