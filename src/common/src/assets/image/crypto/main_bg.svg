@@ -2113,4 +2113,31 @@
 			<path class="st5" d="M1385.8,814.5h-4.3v23.8c0,0.3,0.2,0.6,0.6,0.9c0.9,0.5,2.2,0.5,3.1,0c0.4-0.2,0.6-0.6,0.6-0.9h0V814.5z"/>
 			<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="1383.5968" y1="793.0248" x2="1383.5968" y2="824.0099">
 				<stop  offset="0" style="stop-color:#A99AFA"/>
-				<stop  offset="
+				<stop  offset="0.4583" style="stop-color:#9A89F9"/>
+				<stop  offset="1" style="stop-color:#8C78F8"/>
+			</linearGradient>
+			<path class="st40" d="M1401.3,808.8c0,9.8-7.9,17.7-17.7,17.7c-9.8,0-17.7-7.9-17.7-17.7c0-9.8,7.9-17.7,17.7-17.7
+				C1393.4,791.2,1401.3,799.1,1401.3,808.8z"/>
+		</g>
+		<g>
+			<g>
+				<g class="st7">
+					<g>
+						<g>
+							<polygon class="st41" points="1042.3,482.7 1042,595.3 948.9,649.4 949.2,536.8 							"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<polygon class="st9" points="949.2,536.8 948.9,649.4 900.3,621.4 900.6,508.7 							"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<polygon class="st42" points="1042.3,482.7 949.2,536.8 900.6,508.7 993.7,454.6 							"/>
+						</g>
+					</g>
+					<polygon class="st43" points="1036.6,495.5 954.6,542.9 954.6,550.6 1036.6,503.3 					"/>
+					<polygon class="st43" points="1036.6,510.9 954.6,558.2 954.6,566 1036.6,518.6 					"/>
+					<polygon class="st43" points="954.6,581.3 1036.6,534 1036.6,526.2 954.6,573.6 					"/>
+					<polygon class="st
