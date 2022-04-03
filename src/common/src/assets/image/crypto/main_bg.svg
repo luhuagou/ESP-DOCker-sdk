@@ -3081,4 +3081,21 @@
 						<stop  offset="0" style="stop-color:#58258C"/>
 						<stop  offset="1" style="stop-color:#FFFFFF"/>
 					</linearGradient>
-					<polygon class="st82" points="
+					<polygon class="st82" points="1379,-32.1 1391.1,-24.9 1389.3,-23.9 1372.2,-28.1 					"/>
+				</g>
+				<g>
+					<g>
+						<g>
+							
+								<linearGradient id="SVGID_29_" gradientUnits="userSpaceOnUse" x1="1340.4026" y1="-3.7226" x2="1341.2501" y2="-3.7226" gradientTransform="matrix(0.9995 -3.280000e-02 3.280000e-02 0.9995 -2.0748 42.0876)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st83" d="M1337.9-6.3c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1337.5-5.8,1337.7-6.2,1337.9-6.3z"/>
+						</g>
+						<g>
+							
+								<linearGradient id="SVGID_30_" gradientUnits="userSpaceOnUse" x1="1341.8492" y1="-4.5582" x2="1342.6968" y2="-4.5582" gradientTransform="matrix(0.9995 -3.280000e-02 3.280000e-02 0.9995 -2.0748 42.0876)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="
