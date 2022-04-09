@@ -3150,4 +3150,24 @@
 						</g>
 						<g>
 							
-								<linearGradient id="SVGID_36_" gradientUnits="userSpaceOn
+								<linearGradient id="SVGID_36_" gradientUnits="userSpaceOnUse" x1="1350.5327" y1="-9.5705" x2="1351.3787" y2="-9.5705" gradientTransform="matrix(0.9995 -3.280000e-02 3.280000e-02 0.9995 -2.0748 42.0876)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st90" d="M1347.9-12.5c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1347.5-12,1347.6-12.3,1347.9-12.5z"/>
+						</g>
+						<g>
+							
+								<linearGradient id="SVGID_37_" gradientUnits="userSpaceOnUse" x1="1351.9794" y1="-10.4057" x2="1352.8252" y2="-10.4057" gradientTransform="matrix(0.9995 -3.280000e-02 3.280000e-02 0.9995 -2.0748 42.0876)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st91" d="M1349.3-13.4c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1348.9-12.9,1349.1-13.2,1349.3-13.4z"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							
+								<l
