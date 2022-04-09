@@ -3132,4 +3132,22 @@
 						</g>
 						<g>
 							
-								<linearGradient id="SVGID_34_" gradientUnits="userSpaceOnUse" x1="1347.6377" y1="-7.8992" x2="1348.4835" y2="-7.8992" gradientTransform="matrix(0.9995 -
+								<linearGradient id="SVGID_34_" gradientUnits="userSpaceOnUse" x1="1347.6377" y1="-7.8992" x2="1348.4835" y2="-7.8992" gradientTransform="matrix(0.9995 -3.280000e-02 3.280000e-02 0.9995 -2.0748 42.0876)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st88" d="M1345-10.7c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1344.6-10.2,1344.8-10.6,1345-10.7z"/>
+						</g>
+						<g>
+							
+								<linearGradient id="SVGID_35_" gradientUnits="userSpaceOnUse" x1="1349.0845" y1="-8.7348" x2="1349.9319" y2="-8.7348" gradientTransform="matrix(0.9995 -3.280000e-02 3.280000e-02 0.9995 -2.0748 42.0876)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st89" d="M1346.4-11.6c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1346-11.1,1346.2-11.4,1346.4-11.6z"/>
+						</g>
+						<g>
+							
+								<linearGradient id="SVGID_36_" gradientUnits="userSpaceOn
