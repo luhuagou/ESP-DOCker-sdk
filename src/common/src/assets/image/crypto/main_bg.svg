@@ -3170,4 +3170,18 @@
 					<g>
 						<g>
 							
-								<l
+								<linearGradient id="SVGID_38_" gradientUnits="userSpaceOnUse" x1="1359.6279" y1="-17.8888" x2="1360.4753" y2="-17.8888" gradientTransform="matrix(0.9999 -1.620000e-02 1.620000e-02 0.9999 -1.2427 21.1773)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st92" d="M1358.4-19.4c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1358-19,1358.1-19.3,1358.4-19.4z"/>
+						</g>
+						<g>
+							
+								<linearGradient id="SVGID_39_" gradientUnits="userSpaceOnUse" x1="1361.0747" y1="-18.7244" x2="1361.9221" y2="-18.7244" gradientTransform="matrix(0.9999 -1.620000e-02 1.620000e-02 0.9999 -1.2427 21.1773)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st93" d="M1359.8-20.3c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+		
