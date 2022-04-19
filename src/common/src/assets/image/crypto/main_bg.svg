@@ -3233,4 +3233,26 @@
 						</g>
 						<g>
 							
-								<linearGradient id="SVGID_45_" gradientUnits="userSpaceOnUse" x1="1369.7578" y1="-23.7372" x2="1370.6039" y2="-23.7372" gradientTransform="matrix(0.9999 -1.620000e-02 1.620
+								<linearGradient id="SVGID_45_" gradientUnits="userSpaceOnUse" x1="1369.7578" y1="-23.7372" x2="1370.6039" y2="-23.7372" gradientTransform="matrix(0.9999 -1.620000e-02 1.620000e-02 0.9999 -1.2427 21.1773)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st99" d="M1368.4-25.4c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1368-25,1368.2-25.3,1368.4-25.4z"/>
+						</g>
+						<g>
+							
+								<linearGradient id="SVGID_46_" gradientUnits="userSpaceOnUse" x1="1371.2045" y1="-24.5725" x2="1372.0505" y2="-24.5725" gradientTransform="matrix(0.9999 -1.620000e-02 1.620000e-02 0.9999 -1.2427 21.1773)">
+								<stop  offset="0" style="stop-color:#58258C"/>
+								<stop  offset="1" style="stop-color:#151B4E"/>
+							</linearGradient>
+							<path class="st100" d="M1369.8-26.3c0.2-0.1,0.4,0,0.4,0.2l0,0.4c0,0.3-0.2,0.6-0.4,0.7c-0.2,0.1-0.4,0-0.4-0.2l0-0.4
+								C1369.4-25.8,1369.6-26.2,1369.8-26.3z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<polygon class="st21"
