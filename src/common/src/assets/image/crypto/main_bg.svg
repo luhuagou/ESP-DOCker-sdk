@@ -3295,4 +3295,22 @@
 			</linearGradient>
 			<polygon class="st104" points="334.1,496.7 334.1,763.7 242.5,710.8 242.5,443.8 			"/>
 			<linearGradient id="SVGID_49_" gradientUnits="userSpaceOnUse" x1="338.4457" y1="350.97" x2="332.0444" y2="486.9979">
-				<stop  offset="6.300000e-07" style="s
+				<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#E1E6F0"/>
+			</linearGradient>
+			<polygon class="st105" points="242.5,443.8 334.1,496.7 425.7,443.8 334.1,391 			"/>
+		</g>
+		<g>
+			<polygon class="st103" points="95.4,524.5 95.4,710 153.7,676.3 153.7,490.9 			"/>
+			<linearGradient id="SVGID_50_" gradientUnits="userSpaceOnUse" x1="87.3253" y1="511.1709" x2="51.7205" y2="662.1615">
+				<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#E1E6F0"/>
+			</linearGradient>
+			<polygon class="st106" points="95.4,524.5 95.4,710 37.1,676.3 37.1,490.9 			"/>
+			<linearGradient id="SVGID_51_" gradientUnits="userSpaceOnUse" x1="98.1871" y1="431.8058" x2="94.1158" y2="518.321">
+				<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#E1E6F0"/>
+			</linearGradient>
+			<polygon class="st107" points="37.1,490.9 95.4,524.5 153.7,490.9 95.4,457.2 			"/>
+		</g>
+	
