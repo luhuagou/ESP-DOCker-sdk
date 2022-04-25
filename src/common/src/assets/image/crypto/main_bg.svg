@@ -3328,4 +3328,25 @@
 			<linearGradient id="SVGID_54_" gradientUnits="userSpaceOnUse" x1="58.6682" y1="665.313" x2="14.3198" y2="853.383">
 				<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
 				<stop  offset="1" style="stop-color:#E1E6F0"/>
-			</linearGradi
+			</linearGradient>
+			<polygon class="st110" points="78.3,690.7 78.3,915.2 -13.3,862.3 -13.3,637.8 			"/>
+			<linearGradient id="SVGID_55_" gradientUnits="userSpaceOnUse" x1="82.623" y1="544.9135" x2="76.2216" y2="680.9415">
+				<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#E1E6F0"/>
+			</linearGradient>
+			<polygon class="st111" points="-13.3,637.8 78.3,690.7 169.9,637.8 78.3,584.9 			"/>
+		</g>
+	</g>
+	<g>
+		<linearGradient id="SVGID_56_" gradientUnits="userSpaceOnUse" x1="489.6352" y1="528.7173" x2="662.076" y2="528.7173">
+			<stop  offset="2.300000e-06" style="stop-color:#788ACB"/>
+			<stop  offset="0.2139" style="stop-color:#A2AEDB"/>
+			<stop  offset="0.4536" style="stop-color:#CAD1EB"/>
+			<stop  offset="0.6727" style="stop-color:#E7EAF6"/>
+			<stop  offset="0.8621" style="stop-color:#F9FAFD"/>
+			<stop  offset="1" style="stop-color:#FFFFFF"/>
+		</linearGradient>
+		<rect x="515.8" y="488.3" class="st112" width="151.5" height="80.8"/>
+		<g>
+			<g>
+				<linearGradient id="S
