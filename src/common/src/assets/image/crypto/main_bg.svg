@@ -3349,4 +3349,17 @@
 		<rect x="515.8" y="488.3" class="st112" width="151.5" height="80.8"/>
 		<g>
 			<g>
-				<linearGradient id="S
+				<linearGradient id="SVGID_57_" gradientUnits="userSpaceOnUse" x1="497.9157" y1="517.877" x2="570.1813" y2="559.2196">
+					<stop  offset="8.400000e-07" style="stop-color:#788ACB"/>
+					<stop  offset="1" style="stop-color:#DEE8FF"/>
+				</linearGradient>
+				<polygon class="st113" points="515.8,554.2 515.8,569.1 574.2,535.4 574.2,520.5 				"/>
+				<polygon class="st21" points="457.3,520.5 515.8,554.2 574.2,520.5 515.8,554.2 				"/>
+				<linearGradient id="SVGID_58_" gradientUnits="userSpaceOnUse" x1="490.1125" y1="529.6484" x2="484.0691" y2="555.2775">
+					<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
+					<stop  offset="1" style="stop-color:#E1E6F0"/>
+				</linearGradient>
+				<polygon class="st114" points="515.8,554.2 515.8,569.1 457.3,535.4 457.3,520.5 				"/>
+				<linearGradient id="SVGID_59_" gradientUnits="userSpaceOnUse" x1="528.7336" y1="520.4802" x2="461.7344" y2="520.4802">
+					<stop  offset="8.400000e-07" style="stop-color:#788ACB"/>
+					<stop  offset="1" style="st
