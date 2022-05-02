@@ -3393,4 +3393,19 @@
 				<polygon class="st21" points="457.3,482.8 515.8,516.6 574.2,482.8 515.8,516.6 				"/>
 				<linearGradient id="SVGID_64_" gradientUnits="userSpaceOnUse" x1="490.1125" y1="491.9948" x2="484.0691" y2="517.6238">
 					<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
-					<stop  offset="1" 
+					<stop  offset="1" style="stop-color:#E1E6F0"/>
+				</linearGradient>
+				<polygon class="st120" points="515.8,516.6 515.8,531.5 457.3,497.7 457.3,482.8 				"/>
+				<linearGradient id="SVGID_65_" gradientUnits="userSpaceOnUse" x1="528.7336" y1="482.8266" x2="461.7344" y2="482.8266">
+					<stop  offset="8.400000e-07" style="stop-color:#788ACB"/>
+					<stop  offset="1" style="stop-color:#DEE8FF"/>
+				</linearGradient>
+				<polyline class="st121" points="544,500.2 574.2,482.8 515.8,449.1 457.3,482.8 515.8,516.6 544,500.2 				"/>
+			</g>
+			<g>
+				<linearGradient id="SVGID_66_" gradientUnits="userSpaceOnUse" x1="522.2601" y1="475.3238" x2="594.5257" y2="516.6664">
+					<stop  offset="8.400000e-07" style="stop-color:#788ACB"/>
+					<stop  offset="1" style="stop-color:#DEE8FF"/>
+				</linearGradient>
+				<polygon class="st122" points="515.8,497.7 515.8,512.6 574.2,478.9 574.2,464 				"/>
+				<polygon class="st21" points="457.3,464 515.8,497.7 574.2,4
