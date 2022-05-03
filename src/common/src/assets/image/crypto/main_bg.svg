@@ -3408,4 +3408,23 @@
 					<stop  offset="1" style="stop-color:#DEE8FF"/>
 				</linearGradient>
 				<polygon class="st122" points="515.8,497.7 515.8,512.6 574.2,478.9 574.2,464 				"/>
-				<polygon class="st21" points="457.3,464 515.8,497.7 574.2,4
+				<polygon class="st21" points="457.3,464 515.8,497.7 574.2,464 515.8,497.7 				"/>
+				<linearGradient id="SVGID_67_" gradientUnits="userSpaceOnUse" x1="490.1125" y1="473.168" x2="484.0691" y2="498.797">
+					<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
+					<stop  offset="1" style="stop-color:#E1E6F0"/>
+				</linearGradient>
+				<polygon class="st123" points="515.8,497.7 515.8,512.6 457.3,478.9 457.3,464 				"/>
+				<linearGradient id="SVGID_68_" gradientUnits="userSpaceOnUse" x1="572.7549" y1="463.9997" x2="457.3557" y2="463.9997">
+					<stop  offset="6.300000e-07" style="stop-color:#FFFFFF"/>
+					<stop  offset="1" style="stop-color:#E1E6F0"/>
+				</linearGradient>
+				<polygon class="st124" points="457.3,464 515.8,497.7 574.2,464 515.8,430.3 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<linearGradient id="SVGID_69_" gradientUnits="userSpaceOnUse" x1="505.9494" y1="310.3346" x2="774.7195" y2="1107.1328">
+			<stop  offset="8.400000e-07" style="stop-color:#788ACB"/>
+			<stop  offset="1" style="stop-color:#DEE8FF"/>
+		</linearGradient>
+		<polygon class
