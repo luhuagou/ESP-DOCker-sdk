@@ -65,4 +65,9 @@
   <g id="service_5" data-name="service 5" transform="translate(-77.28 -49.518)">
     <g id="Layer_2" data-name="Layer 2" transform="translate(77.28 49.518)">
       <g id="Layer_2-2" data-name="Layer 2">
-        <path id="Path_901" data-name="Path 901" class="cls-1" d="M162.548,110.41a11.3,11.3,0,0,0-2.277,12.179c2.916,7.261,10.848,12.935,18.932,17.909,6.092,3.733,7.916,6.4,5.227,11.544-3.361,6.439-7.21,5.114-11.764,11.451-1.571,2.436-5.79,9.818-5.79,9.818
+        <path id="Path_901" data-name="Path 901" class="cls-1" d="M162.548,110.41a11.3,11.3,0,0,0-2.277,12.179c2.916,7.261,10.848,12.935,18.932,17.909,6.092,3.733,7.916,6.4,5.227,11.544-3.361,6.439-7.21,5.114-11.764,11.451-1.571,2.436-5.79,9.818-5.79,9.818l3.756,2.641s-.227-1.6,4.37-5.17c5.042-3.929,14.117-8.94,16.89-11.264s7.47-5.3,5.369-12.617-20.7-25.253-20.7-25.253Z" transform="translate(-90.392 -53.584)"/>
+        <path id="Path_902" data-name="Path 902" class="cls-2" d="M229.39,165.087c18.89-22.519,5.571-49.237,5.571-49.237l2.588.439s17.688,21.856.193,45.728Z" transform="translate(-101.573 -53.947)"/>
+        <ellipse id="Ellipse_298" data-name="Ellipse 298" class="cls-3" cx="3.58" cy="3.976" rx="3.58" ry="3.976" transform="translate(127.615 59.477)"/>
+        <ellipse id="Ellipse_299" data-name="Ellipse 299" class="cls-4" cx="17.1" cy="18.991" rx="17.1" ry="18.991" transform="translate(22.444 112.017)"/>
+        <ellipse id="Ellipse_300" data-name="Ellipse 300" class="cls-5" cx="17.1" cy="18.991" rx="17.1" ry="18.991" transform="translate(22.444 112.017)"/>
+        <ellipse id="Ellipse_301" data-name="Ellipse 301" class="cls-6" cx="8.831" cy="9.808" rx="8.831" ry="9.808" transform="translate(30.318 121.2)"/>
