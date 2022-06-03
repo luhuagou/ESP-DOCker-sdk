@@ -18,4 +18,51 @@
       }
 
       .cls-5 {
-        
+        fill: #2e3054;
+      }
+
+      .cls-12, .cls-14, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #7859c9;
+      }
+
+      .cls-12, .cls-8 {
+        opacity: 0.4;
+      }
+
+      .cls-9 {
+        fill: #ecb49f;
+      }
+
+      .cls-10 {
+        fill: #bc428b;
+      }
+
+      .cls-11 {
+        fill: #b1317d;
+      }
+
+      .cls-13 {
+        fill: #acd0ef;
+      }
+
+      .cls-14 {
+        opacity: 0.5;
+      }
+
+      .cls-15 {
+        fill: #ff92a7;
+      }
+
+      .cls-16 {
+        fill: #727f9c;
+      }
+    </style>
+  </defs>
+  <g id="service_5" data-name="service 5" transform="translate(-77.28 -49.518)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(77.28 49.518)">
+      <g id="Layer_2-2" data-name="Layer 2">
+        <path id="Path_901" data-name="Path 901" class="cls-1" d="M162.548,110.41a11.3,11.3,0,0,0-2.277,12.179c2.916,7.261,10.848,12.935,18.932,17.909,6.092,3.733,7.916,6.4,5.227,11.544-3.361,6.439-7.21,5.114-11.764,11.451-1.571,2.436-5.79,9.818-5.79,9.818
