@@ -71,3 +71,9 @@
         <ellipse id="Ellipse_299" data-name="Ellipse 299" class="cls-4" cx="17.1" cy="18.991" rx="17.1" ry="18.991" transform="translate(22.444 112.017)"/>
         <ellipse id="Ellipse_300" data-name="Ellipse 300" class="cls-5" cx="17.1" cy="18.991" rx="17.1" ry="18.991" transform="translate(22.444 112.017)"/>
         <ellipse id="Ellipse_301" data-name="Ellipse 301" class="cls-6" cx="8.831" cy="9.808" rx="8.831" ry="9.808" transform="translate(30.318 121.2)"/>
+        <path id="Path_903" data-name="Path 903" class="cls-2" d="M159.912,138.873s-9.142,20.736.992,34.016,34.393,8.623,34.393,8.623l-.2,9.09L78.21,195.483s5.168-48.22,26.049-60.567S153.357,129.093,159.912,138.873Z" transform="translate(-77.429 -54.769)"/>
+        <path id="Path_904" data-name="Path 904" class="cls-7" d="M150.169,166.562c-3.361-13.905-21.469-16.117-40.754-5.3S79.4,193.495,79.4,193.495l.908.149,58.417-2.286C148.085,186,152.732,177.107,150.169,166.562Z" transform="translate(-77.619 -56.523)"/>
+        <g id="Group_90" data-name="Group 90" class="cls-8" transform="translate(8.092 78.942)">
+          <path id="Path_905" data-name="Path 905" class="cls-6" d="M87.2,161.65l-.286-.224A82.87,82.87,0,0,1,98.447,147.66c6.546-6.271,16.806-13.69,28.385-13.551,23.2.317,33.326,1.428,33.427,1.447v.392c-.1,0-10.218-1.129-33.4-1.437h-.378C104.632,134.5,87.372,161.37,87.2,161.65Z" transform="translate(-86.91 -134.108)"/>
+        </g>
+        <path id="Path_906" da
