@@ -9,4 +9,19 @@
         opacity: 0.12;
         fill: url(#linear-gradient-4);
       }
- 
+    </style>
+    <linearGradient id="linear-gradient" x1="0.125" y1="0.072" x2="0.526" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdfdff"/>
+      <stop offset="1" stop-color="#fcfbff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.602" x2="1" y2="0.536" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1c2f7"/>
+      <stop offset="1" stop-color="#c7b5f5"/>
+      <stop offset="1" stop-color="#f8f6fe"/>
+    </linearGradient>
+  </defs>
+  <g id="dizajn">
+    <g id="Group_6461" data-name="Group 6461" transform="translate(0 306.585)">
+      <path id="Path_6774" data-name="Path 6774" class="cls-1" d="M107.177,704.926C63.435,553.309-82.663,344.543,63.435,273.849c67.787-37.116,181.169-42.365,256.753-28.6,79.52,15.22,121.191,49.583,136.372,124.06,27.017,147.951,50.728,419.782-102.15,481.574-73.538,33.9-142.933,27.429-178,2.11C137.8,826.3,133.474,780.741,107.177,704.926Z" transform="translate(-0.014 -238.294)"/>
+    </g>
+    <
