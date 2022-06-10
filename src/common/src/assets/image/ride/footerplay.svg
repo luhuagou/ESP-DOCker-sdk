@@ -8,4 +8,13 @@
       <stop offset="0" stop-color="#dd4245"/>
       <stop offset="1" stop-color="#b72162"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="-0.507" y1="-0.956" x2="0.606" y2="0.489" gradientUnits="objectBo
+    <linearGradient id="linear-gradient-3" x1="-0.507" y1="-0.956" x2="0.606" y2="0.489" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6cb966"/>
+      <stop offset="1" stop-color="#299567"/>
+    </linearGradient>
+  </defs>
+  <g id="play-store-download" transform="translate(0.5 0.5)">
+    <g id="Medium-Product-Hunt">
+      <g id="Group">
+        <path id="Fill-3" d="M144.444,45H5.556A5.607,5.607,0,0,1,0,39.375V5.625A5.607,5.607,0,0,1,5.556,0H144.444A5.607,5.607,0,0,1,150,5.625v33.75A5.607,5.607,0,0,1,144.444,45" fill="none" stroke="#fff" stroke-width="1" fill-rule="evenodd"/>
+        <path id="Fill-5" d="M75.967,15.3a3.067,3.067,0,0,1-.829,2.253,3.209,3.209,0,0,1-2.449,1,3.333,3.333,0,0,1-2.453-1.014,3.417,3.417,0,0,1-1.01-2.512,3.415,3.415,0,0,1,1.01-2.512A3.333,3.333,0,0,1,72.69,11.5a3.415,3.415,0,0,1,1.369.282,2.744,2.744,0,0,1,1.042.755l-.586.593a2.241,2.241,0,0,0-1.826-.8,2.513,2.513,0,0,0-1.82.749,2.6,2.6,0,0,0-.769,1.946,2.6,2.6,0,0,0,.769,1.946,2.632,2.632,0,0,0,3.682,0,2.139,2.139,0,0,0,.559-1.368
