@@ -22,4 +22,9 @@
         <path id="Fill-7" d="M85.127,12.554H82.09v2.141h2.738v.81H82.09v2.141h3.037v.829H81.234v-6.75h3.892v.829" transform="translate(-27.318 -3.85)" fill="#fffffe" fill-rule="evenodd"/>
         <path id="Fill-8" d="M85.07,12.5v-.113H81.923v2.366H84.66v.585H81.923V17.7h3.037v.6h-3.67V11.783h3.67V12.5h.111v0h.111v-.942H81.067v6.975h4.114V17.478H82.145V15.563h2.738V14.528H82.145V12.612h3.037V12.5H85.07" transform="translate(-27.261 -3.795)" fill="#fffffe" fill-rule="evenodd"/>
         <path id="Fill-9" d="M91.164,18.475h-.858V12.554H88.445v-.829h4.581v.829H91.164v5.921" transform="translate(-29.742 -3.85)" fill="#fffffe" fill-rule="evenodd"/>
-        <path id="Fill-10" d="M91.107,18.42v-.112H90.36V12.387H88.5v-.6h4.36
+        <path id="Fill-10" d="M91.107,18.42v-.112H90.36V12.387H88.5v-.6h4.36v.6H91V18.42h.111v0h.111V12.612H93.08V11.557h-4.8v1.054h1.862v5.921h1.08V18.42h-.111" transform="translate(-29.686 -3.795)" fill="#fffffe" fill-rule="evenodd"/>
+        <path id="Fill-11" d="M100.341,18.475h.857v-6.75h-.857Z" transform="translate(-33.743 -3.85)" fill="#fffffe" fill-rule="evenodd"/>
+        <path id="Fill-12" d="M100.284,18.42h.111V11.783h.633v6.525h-.744v.112h0v.113h.968V11.557h-1.079v6.975h.111V18.42" transform="translate(-33.687 -3.795)" fill="#fffffe" fill-rule="evenodd"/>
+        <path id="Fill-13" d="M105.977,18.475h-.857V12.554h-1.862v-.829h4.581v.829h-1.862v5.921" transform="translate(-34.724 -3.85)" fill="#fffffe" fill-rule="evenodd"/>
+        <path id="Fill-14" d="M105.921,18.42v-.112h-.746V12.387h-1.862v-.6h4.359v.6H105.81V18.42h.111v0h.111V12.612h1.862V11.557h-4.8v1.054h1.862v5.921h1.079V18.42h-.111" transform="translate(-34.668 -3.795)" fill="#fffffe" fill-rule="evenodd"/>
+        <path id="Fill-15" d="M116,16.964a2.542,2.542,0,0,0,3.622,0,2.662,2.662,0,0,0,.741-1.937,2.662,2.662,0,0,0-.741-
