@@ -122,4 +122,20 @@
 				</g>
 				<g id="Group_1248" transform="translate(375.429 225.481)">
 					
-						<linearGradient id="Rectangle_370_2_" gradientUnits="userSpaceOnUse" x1="-679.9969" y1=
+						<linearGradient id="Rectangle_370_2_" gradientUnits="userSpaceOnUse" x1="-679.9969" y1="415.285" x2="-677.4969" y2="386.16" gradientTransform="matrix(1.488 0 0 -7.442 1008.4796 2855.3916)">
+						<stop  offset="0" style="stop-color:#B2DBE1"/>
+						<stop  offset="0.322" style="stop-color:#B7E1E6"/>
+						<stop  offset="0.757" style="stop-color:#C5F2F4"/>
+						<stop  offset="1" style="stop-color:#D0FFFF"/>
+					</linearGradient>
+					<rect id="Rectangle_370" x="0" y="0" class="st8" width="1.5" height="7.4"/>
+				</g>
+				<g id="Group_1249" transform="translate(375.429 237.388)">
+					
+						<linearGradient id="Rectangle_371_2_" gradientUnits="userSpaceOnUse" x1="-680.1354" y1="404.9792" x2="-677.6344" y2="375.8532" gradientTransform="matrix(1.488 0 0 -7.442 1008.4796 2766.7795)">
+						<stop  offset="0" style="stop-color:#B2DBE1"/>
+						<stop  offset="0.322" style="stop-color:#B7E1E6"/>
+						<stop  offset="0.757" style="stop-color:#C5F2F4"/>
+						<stop  offset="1" style="stop-color:#D0FFFF"/>
+					</linearGradient>
+					<rect id="Rect
