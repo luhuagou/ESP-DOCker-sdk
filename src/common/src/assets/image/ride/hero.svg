@@ -106,4 +106,20 @@
 						c-3.3-2.6-7.1-4.5-11.2-5.6l-0.7-0.4h48.4l-0.7,0.4c-3.9,1.4-7.7,3.3-11.2,5.6c-6.3,4.5-10,12.7-9.3,21.2l4.8,91.2h2.6
 						l-1.9-33.9h37.6v33.9h2.6V80.4h25.3v104.6h2.6v-33.9h38v-3H724.4z M458,131.7h6.3l1.5,11.9h-6.3L458,131.7z M460.3,153.3
 						l-0.7-7.1h6.3l0.7,7.1H460.3z M467,131.7h7.1l1.5,11.9h-7.1L467,131.7z M469.6,153.3l-0.7-7.1h7.1l0.7,7.1H469.6z M478.5,143.6
-						l-1.5-11.9h8.2l1.5,11.9H478.5z M489.3,143.6l-1.5-11.9h6.7l1.5,11.9H489.3z M585.3,63.3l0.7-0.4c11.5-3.7,20.5-12.3,23.4
+						l-1.5-11.9h8.2l1.5,11.9H478.5z M489.3,143.6l-1.5-11.9h6.7l1.5,11.9H489.3z M585.3,63.3l0.7-0.4c11.5-3.7,20.5-12.3,23.4-22.3
+						c3.3,10,11.9,18.2,23.4,22.3l0.7,0.4H585.3z"/>
+					<path id="Path_2028" class="st5" d="M38.3,106c-0.8,0.1-1.4,0.7-1.5,1.5v77h2.6v-77C39.4,106.8,39.1,106,38.3,106z"/>
+				</g>
+				<g id="Group_1247" transform="translate(375.429 249.667)">
+					
+						<linearGradient id="Rectangle_369_2_" gradientUnits="userSpaceOnUse" x1="-680.2758" y1="394.349" x2="-677.7758" y2="365.223" gradientTransform="matrix(1.488 0 0 -7.442 1008.4796 2675.3992)">
+						<stop  offset="0" style="stop-color:#B2DBE1"/>
+						<stop  offset="0.322" style="stop-color:#B7E1E6"/>
+						<stop  offset="0.757" style="stop-color:#C5F2F4"/>
+						<stop  offset="1" style="stop-color:#D0FFFF"/>
+					</linearGradient>
+					<rect id="Rectangle_369" x="0" y="0" class="st7" width="1.5" height="7.4"/>
+				</g>
+				<g id="Group_1248" transform="translate(375.429 225.481)">
+					
+						<linearGradient id="Rectangle_370_2_" gradientUnits="userSpaceOnUse" x1="-679.9969" y1=
