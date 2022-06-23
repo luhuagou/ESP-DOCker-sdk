@@ -138,4 +138,18 @@
 						<stop  offset="0.757" style="stop-color:#C5F2F4"/>
 						<stop  offset="1" style="stop-color:#D0FFFF"/>
 					</linearGradient>
-					<rect id="Rect
+					<rect id="Rectangle_371" x="0" y="0" class="st9" width="1.5" height="7.4"/>
+				</g>
+			</g>
+			<g id="Group_1913" transform="translate(-39 0.265)">
+				<g id="Group_1919" transform="translate(143.146 222.255)">
+					
+						<linearGradient id="Path_2029_1_" gradientUnits="userSpaceOnUse" x1="-395.6891" y1="439.2771" x2="-394.6891" y2="439.2771" gradientTransform="matrix(723.5685 0 0 -353.7679 286384.8438 155579.0156)">
+						<stop  offset="0" style="stop-color:#C3BAE9"/>
+						<stop  offset="2.400000e-02" style="stop-color:#B8AEE6"/>
+						<stop  offset="0.184" style="stop-color:#ADA2E2"/>
+						<stop  offset="1" style="stop-color:#7B67D0"/>
+					</linearGradient>
+					<path id="Path_2029" class="st10" d="M685.5,220c0,0,6.2-21.8,5.7-29.4c-2.4-37.9-46.5-143.7-46.5-143.7s6.6-4.7,7.1-7.1
+						c0.5-1.4-4.3-7.1-4.3-7.1s-168.4-55.5-295-21.8C225.9,45,175.6,131.3,175.6,131.3s-107.7,18.5-126.2,37s-9.5,54.1-9.5,54.1
+						s-23.7,19-34.6,56c-9,31.8-5.7,56.9,
