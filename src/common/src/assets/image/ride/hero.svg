@@ -165,4 +165,18 @@
 					<ellipse id="Ellipse_51" class="st12" cx="617.2" cy="324.8" rx="58.8" ry="58.8"/>
 					
 						<radialGradient id="Ellipse_52_2_" cx="-395.3677" cy="439.2029" r="0.5" gradientTransform="matrix(168.852 0 0 -168.852 66874.4688 74485.1172)" gradientUnits="userSpaceOnUse">
-						<stop  offset="0" st
+						<stop  offset="0" style="stop-color:#7763CD"/>
+						<stop  offset="2.400000e-02" style="stop-color:#9F91DD"/>
+						<stop  offset="0.519" style="stop-color:#8A79D9"/>
+						<stop  offset="1" style="stop-color:#9B8BE2"/>
+					</radialGradient>
+					<ellipse id="Ellipse_52" class="st13" cx="115.8" cy="324.8" rx="84.4" ry="84.4"/>
+					<ellipse id="Ellipse_53" class="st12" cx="115.8" cy="324.8" rx="58.8" ry="58.8"/>
+					
+						<linearGradient id="Path_2030_2_" gradientUnits="userSpaceOnUse" x1="-395.6533" y1="439.1598" x2="-394.6533" y2="439.1598" gradientTransform="matrix(377.5839 0 0 -129.6197 149634.3125 57009.7031)">
+						<stop  offset="0" style="stop-color:#FFFFFF"/>
+						<stop  offset="1" style="stop-color:#C3BAE9"/>
+					</linearGradient>
+					<path id="Path_2030" class="st14" d="M558.4,118.5l-377.5,32.3c0,0,63.6-74.5,153.2-110.5c65.9-26.6,130-20.4,160.8-11.4
+						C562.2,48.3,558.4,118.5,558.4,118.5z"/>
+					<path id="Path_2031" class="st15" d="M88.8,173
