@@ -339,4 +339,20 @@
 				<linearGradient id="XMLID_10_" gradientUnits="userSpaceOnUse" x1="-486.7874" y1="928.1606" x2="-485.7364" y2="928.1606" gradientTransform="matrix(10.1426 -0.1685 -0.1685 -10.1426 5296.4697 9531.4014)">
 				<stop  offset="0" style="stop-color:#7763CD"/>
 				<stop  offset="2.400000e-02" style="stop-color:#8673D6"/>
-				<stop  offset="0.184" style="stop-color:#
+				<stop  offset="0.184" style="stop-color:#7B68D0"/>
+				<stop  offset="1" style="stop-color:#B9AFE7"/>
+			</linearGradient>
+			<circle id="XMLID_4_" class="st34" cx="208.3" cy="199.4" r="5.1"/>
+			
+				<linearGradient id="XMLID_11_" gradientUnits="userSpaceOnUse" x1="-486.7874" y1="928.1606" x2="-485.7364" y2="928.1606" gradientTransform="matrix(10.1426 -0.1685 -0.1685 -10.1426 4953.1777 9520.248)">
+				<stop  offset="0" style="stop-color:#7763CD"/>
+				<stop  offset="2.400000e-02" style="stop-color:#8673D6"/>
+				<stop  offset="0.184" style="stop-color:#7B68D0"/>
+				<stop  offset="1" style="stop-color:#B9AFE7"/>
+			</linearGradient>
+			<circle id="XMLID_3_" class="st35" cx="-135" cy="188.2" r="5.1"/>
+			
+				<linearGradient id="XMLID_12_" gradientUnits="userSpaceOnUse" x1="-486.3977" y1="928.6561" x2="-485.3467" y2="928.6561" gradientTransform="matrix(13.0428 0 0 -13.0157 6481.457 12406.4502)">
+				<stop  offset="0" style="stop-color:#7763CD"/>
+				<stop  offset="2.400000e-02" style="stop-color:#8673D6"/>
+				<stop  offset="0.184
