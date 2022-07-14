@@ -437,4 +437,21 @@
 	</g>
 	<g id="Group_1248_1_" transform="translate(375.429 225.481)">
 		
-			<linearGradient id="Rectangle_370_3_" gradientUnits="userSpaceOnUse" x1="-372.3699" y1="728.92" x2="-369.8699" y2="699.795" gradientTransform="matrix(1.488 0 
+			<linearGradient id="Rectangle_370_3_" gradientUnits="userSpaceOnUse" x1="-372.3699" y1="728.92" x2="-369.8699" y2="699.795" gradientTransform="matrix(1.488 0 0 -7.442 858.3576 5503.0981)">
+			<stop  offset="0" style="stop-color:#B2DBE1"/>
+			<stop  offset="0.322" style="stop-color:#B7E1E6"/>
+			<stop  offset="0.757" style="stop-color:#C5F2F4"/>
+			<stop  offset="1" style="stop-color:#D0FFFF"/>
+		</linearGradient>
+		<rect id="Rectangle_370_1_" x="307.6" y="313.6" class="st42" width="1.5" height="7.4"/>
+	</g>
+	<g id="Group_1249_1_" transform="translate(375.429 237.388)">
+		
+			<linearGradient id="Rectangle_371_3_" gradientUnits="userSpaceOnUse" x1="-372.5085" y1="718.6142" x2="-370.0074" y2="689.4882" gradientTransform="matrix(1.488 0 0 -7.442 858.3576 5414.4863)">
+			<stop  offset="0" style="stop-color:#B2DBE1"/>
+			<stop  offset="0.322" style="stop-color:#B7E1E6"/>
+			<stop  offset="0.757" style="stop-color:#C5F2F4"/>
+			<stop  offset="1" style="stop-color:#D0FFFF"/>
+		</linearGradient>
+		<rect id="Rectangle_371_1_" x="307.6" y="313.6" class="st43" width="1.5" height="7.4"/>
+	</g
