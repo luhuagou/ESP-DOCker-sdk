@@ -454,4 +454,17 @@
 			<stop  offset="1" style="stop-color:#D0FFFF"/>
 		</linearGradient>
 		<rect id="Rectangle_371_1_" x="307.6" y="313.6" class="st43" width="1.5" height="7.4"/>
-	</g
+	</g>
+</g>
+<linearGradient id="Path_2036_3_" gradientUnits="userSpaceOnUse" x1="15.298" y1="974.9025" x2="16.6049" y2="975.0026" gradientTransform="matrix(28.9817 0 0 -43.7616 324.2017 43111.8438)">
+	<stop  offset="0" style="stop-color:#ABA0E1"/>
+	<stop  offset="1" style="stop-color:#DAD6EB"/>
+</linearGradient>
+<path id="Path_2036_1_" class="st44" d="M800.9,439c0-8-6.5-14.5-14.5-14.5c-8,0-14.5,6.5-14.5,14.5c-0.1,2.6,0.7,5.2,2.2,7.4l0,0
+	l6.2,10.5l6.5,11.4l6.5-11.4l6.2-10.8C800.3,443.9,800.9,441.5,800.9,439z"/>
+<ellipse id="Ellipse_54_1_" class="st12" cx="786.4" cy="440.6" rx="8.3" ry="8.3"/>
+<linearGradient id="Path_2037_3_" gradientUnits="userSpaceOnUse" x1="15.3959" y1="974.9973" x2="16.7029" y2="975.0973" gradientTransform="matrix(35.236 0 0 -52.854 -64.426 51851.957)">
+	<stop  offset="0" style="stop-color:#ABA0E1"/>
+	<stop  offset="1" style="stop-color:#DAD6EB"/>
+</linearGradient>
+<path id="Path_2037_1_" class="st45" d="M518.6,308.1c
