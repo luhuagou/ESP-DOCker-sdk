@@ -467,4 +467,15 @@
 	<stop  offset="0" style="stop-color:#ABA0E1"/>
 	<stop  offset="1" style="stop-color:#DAD6EB"/>
 </linearGradient>
-<path id="Path_2037_1_" class="st45" d="M518.6,308.1c
+<path id="Path_2037_1_" class="st45" d="M518.6,308.1c0-9.7-7.9-17.6-17.6-17.6s-17.6,7.9-17.6,17.6c0,3.1,0.8,6.1,2.3,8.8l0,0
+	l7.4,12.8l8,13.6l8-13.6l7.4-13.1C517.8,314,518.6,311.1,518.6,308.1z"/>
+<ellipse id="Ellipse_55_1_" class="st12" cx="501" cy="310.1" rx="9.9" ry="9.9"/>
+<g id="Group_1251_1_" transform="translate(-16.457 13.106)">
+	
+		<linearGradient id="Path_2038_3_" gradientUnits="userSpaceOnUse" x1="31.8251" y1="961.6851" x2="33.6511" y2="961.9011" gradientTransform="matrix(32.8439 0 0 -40.152 -742.4512 38951.7695)">
+		<stop  offset="0" style="stop-color:#AA9FE0"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</linearGradient>
+	<path id="Path_2038_1_" class="st46" d="M333,341.3c-1.7,0-3.4,0.7-4.6,2l-9.1-7.6c0.6-0.9,0.9-2,1-3c0-0.8-0.2-1.6-0.5-2.3
+		l9.7-6.1c1.2,1.3,2.8,2,4.6,2c3.5,0,6.4-2.8,6.4-6.4s-2.8-6.4-6.4-6.4s-6.4,2.8-6.4,6.4l0,0c0,0.8,0.2,1.6,0.5,2.3l-9.7,6.1
+		c-1.2-1.3-2.8-2-4.6-2c-3.5,0-6.4,2.8-6.4,6.3c0,3.5,2.8,6.4,6.3,6.4c1.5,0,3-0.5,4.2-1.5l9.4,7.6c-0.3,0.7-0.5,1.5-0.
