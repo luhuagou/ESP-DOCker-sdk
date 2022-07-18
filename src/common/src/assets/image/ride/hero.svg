@@ -594,4 +594,17 @@
 	c0,0,0,0,0,0l0.1,2.6l-2.6,0.1c-1.1,0-2,0.9-1.9,2s0.9,2,2,1.9c0,0,0,0,0.1,0l2.6-0.1l0.1,2.6c0,1.1,0.9,1.9,1.9,1.9c0,0,0,0,0,0
 	l0,0c1.1,0,1.9-0.9,1.9-1.9c0,0,0,0,0,0l-0.1-2.6l2.6-0.1c1.1,0,1.9-0.9,1.9-1.9c0,0,0,0,0,0C652.2,363.2,651.4,362.4,650.3,362.3z"
 	/>
-<linearGradient id="XMLID_17_" gradientUnits="userSpaceOnUse" x1="14.7233" y1=
+<linearGradient id="XMLID_17_" gradientUnits="userSpaceOnUse" x1="14.7233" y1="973.6462" x2="15.7743" y2="973.6462" gradientTransform="matrix(13.043 0 0 -12.9467 384.3471 12767.0225)">
+	<stop  offset="0" style="stop-color:#7763CD"/>
+	<stop  offset="2.400000e-02" style="stop-color:#8673D6"/>
+	<stop  offset="0.184" style="stop-color:#7B68D0"/>
+	<stop  offset="1" style="stop-color:#B9AFE7"/>
+</linearGradient>
+<path id="XMLID_5_" class="st56" d="M588,159.5l-2.6,0.1l-0.1-2.6c0-1.1-0.9-1.9-1.9-1.9c0,0,0,0-0.1,0l0,0c-1.1,0-1.9,0.9-1.9,1.9
+	c0,0,0,0,0,0l0.1,2.6H579c-1.1,0-2,0.9-1.9,2c0,1.1,0.9,2,2,1.9c0,0,0,0,0.1,0l2.6-0.1l0.1,2.6c0,1.1,0.9,1.9,1.9,1.9c0,0,0,0,0,0
+	l0,0c1.1,0,1.9-0.9,1.9-1.9c0,0,0,0,0,0l-0.1-2.6l2.6-0.1c1.1,0,1.9-0.9,1.9-1.9c0,0,0,0,0,0C589.9,160.3,589.1,159.5,588,159.5z"/>
+<linearGradient id="Path_2061_3_" gradientUnits="userSpaceOnUse" x1="15.4678" y1="974.0497" x2="16.5188" y2="974.0497" gradientTransform="matrix(33.1831 0 0 -16.5491 -274.1127 16302.8369)">
+	<stop  offset="0" style="stop-color:#7763CD"/>
+	<stop  offset="2.400000e-02" style="stop-color:#8673D6"/>
+	<stop  offset="0.184" style="stop-color:#7B68D0"/>
+	<stop  offset
