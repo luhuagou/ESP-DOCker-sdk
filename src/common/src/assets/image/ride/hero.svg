@@ -643,4 +643,20 @@
 <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="15.8327" y1="975.1409" x2="16.8837" y2="975.1409" gradientTransform="matrix(136.406 0 0 -66.8333 -1249.0726 65401.1289)">
 	<stop  offset="0" style="stop-color:#7763CD"/>
 	<stop  offset="2.400000e-02" style="stop-color:#8673D6"/>
-	<stop  offset="0.184" style="stop-co
+	<stop  offset="0.184" style="stop-color:#7B68D0"/>
+	<stop  offset="1" style="stop-color:#B9AFE7"/>
+</linearGradient>
+<path class="st61" d="M999.8,195.8c-9.8,0-19.2,4.2-25.7,11.5c-3.5-1.7-7.3-2.6-11.2-2.5c-13.8,0-25.1,10.8-25.4,24.3h-3
+	c-9.3-0.1-17,7.4-17.1,16.7c0,0,0,0.1,0,0.1c0.1,9.3,7.7,16.8,17.1,16.8h97.5v-44.4C1027.4,205.2,1014.7,195.8,999.8,195.8z"/>
+<g>
+	
+		<radialGradient id="Ellipse_52_3_" cx="16.4052" cy="975.3578" r="0.5" gradientTransform="matrix(168.852 0 0 -168.852 -2242.4492 165552.125)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#7763CD"/>
+		<stop  offset="2.400000e-02" style="stop-color:#9F91DD"/>
+		<stop  offset="0.519" style="stop-color:#8A79D9"/>
+		<stop  offset="1" style="stop-color:#9B8BE2"/>
+	</radialGradient>
+	<ellipse id="Ellipse_52_1_" class="st62" cx="527.6" cy="861" rx="84.4" ry="84.4"/>
+	<ellipse id="Ellipse_53_1_" class="st12" cx="527.6" cy="861" rx="58.8" ry="58.8"/>
+</g>
+<linearGradient id="Path_2030_3_" gradientUnits="userSpac
