@@ -82,4 +82,14 @@
     <g class="cls-12" transform="matrix(1, 0, 0, 1, 293.08, 209)">
       <rect id="Rectangle_Copy_2-2" data-name="Rectangle Copy 2" class="cls-3" width="360.446" height="733.052" rx="57" transform="translate(51 48)"/>
     </g>
-    <g id="Rectangle_Copy_
+    <g id="Rectangle_Copy_8-2" data-name="Rectangle Copy 8" class="cls-4" transform="translate(346.685 261.343)">
+      <rect class="cls-11" width="355.235" height="725.235" rx="53"/>
+      <rect class="cls-1" x="1.5" y="1.5" width="352.235" height="722.235" rx="51.5"/>
+    </g>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" class="cls-5" width="334.39" height="705.258" rx="41" transform="translate(357.108 270.897)"/>
+    <g id="Rectangle" transform="translate(427.46 271.765)">
+      <rect id="Mask-3" data-name="Mask" class="cls-1" width="205.845" height="43.427"/>
+      <g id="Rectangle-2" data-name="Rectangle" class="cls-6">
+        <rect id="Rectangle-3" data-name="Rectangle" class="cls-5" width="178.92" height="46.033" rx="20" transform="translate(7.817 -14.765)"/>
+        <path id="Path" class="cls-7" d="M5.508,4.4c0-2.117-.856-4.4-4.357-4.4H6.4S5.508,6.521,5.508,4.4Z" transform="translate(2.454 4.343)"/>
+        <path id="Path_Copy" data-name="Path Copy" class="cls-7" d="M-6.3,4.4c0-2.117.856-4.4,4.357-4.4H-7.193S
