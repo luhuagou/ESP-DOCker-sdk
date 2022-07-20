@@ -20,4 +20,49 @@
       }
 
       .cls-4 {
-        stroke: 
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        fill: #eceaf9;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-7 {
+        fill: #f4f2ff;
+      }
+
+      .cls-8 {
+        fill: #fbfbfe;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_Copy_2);
+      }
+    </style>
+    <filter id="Rectangle_Copy_2" x="0" y="0" width="450.446" height="823.052" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#2a1a8e" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Mask" class="cls-1" width="205.845" height="43.427"/>
+    </clipPath>
+    <linearGradient id="
