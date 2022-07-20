@@ -65,4 +65,21 @@
     <clipPath id="clip-path">
       <rect id="Mask" class="cls-1" width="205.845" height="43.427"/>
     </clipPath>
-    <linearGradient id="
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eee"/>
+      <stop offset="0.473" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d8d8d8"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Mask-2" data-name="Mask" class="cls-1" width="6.08" height="29.531"/>
+    </clipPath>
+  </defs>
+  <g id="mock_1" data-name="mock 1" transform="translate(-293.08 -209)">
+    <g id="Rectangle_Copy_8" data-name="Rectangle Copy 8" class="cls-2" transform="translate(346.685 261.343)">
+      <rect class="cls-11" width="355.235" height="725.235" rx="53"/>
+      <rect class="cls-1" x="1.5" y="1.5" width="352.235" height="722.235" rx="51.5"/>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 293.08, 209)">
+      <rect id="Rectangle_Copy_2-2" data-name="Rectangle Copy 2" class="cls-3" width="360.446" height="733.052" rx="57" transform="translate(51 48)"/>
+    </g>
+    <g id="Rectangle_Copy_
