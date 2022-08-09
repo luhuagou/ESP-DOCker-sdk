@@ -27,4 +27,46 @@ const Accordion = ({ className, children, allowZeroExpanded = true }) => {
       className={addAllClasses.join(' ')}
     >
       {children}
-    </Acco
+    </AccordionWrapper>
+  );
+};
+
+const AccordionItem = ({ className, children, expanded }) => {
+  // Add all classs to an array
+  const addAllClasses = ['accordion__item'];
+
+  // className prop checking
+  if (className) {
+    addAllClasses.push(className);
+  }
+
+  return (
+    <AccordionItemWrapper className={addAllClasses.join(' ')}>
+      {children}
+    </AccordionItemWrapper>
+  );
+};
+
+const AccordionTitle = ({ className, children }) => {
+  // Add all classs to an array
+  const addAllClasses = ['accordion__header'];
+
+  // className prop checking
+  if (className) {
+    addAllClasses.push(className);
+  }
+
+  return (
+    <AccordionTitleWrapper className={addAllClasses.join(' ')}>
+      <AccordionItemButtonWrapper>{children}</AccordionItemButtonWrapper>
+    </AccordionTitleWrapper>
+  );
+};
+
+const AccordionBody = ({ className, children }) => {
+  // Add all classs to an array
+  const addAllClasses = ['accordion__body'];
+
+  // className prop checking
+  if (className) {
+    ad
