@@ -53,4 +53,21 @@ export const AccordionItemButtonWrapper = styled(AccordionItemButton)``;
 export const AccordionBodyWrapper = styled(AccordionItemPanel)`
   animation: 0.35s ${fadeIn} ease-in;
   &.accordion__body--hidden {
-    animatio
+    animation: 0.35s ${fadeIn} ease-in;
+  }
+`;
+
+export const IconWrapper = styled.div`
+  margin-left: 30px;
+  width: 40px;
+  position: relative;
+
+  ${OpenIcon},
+  ${CloseIcon} {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: 0.25s ease-in-out;
+  }
+`;
