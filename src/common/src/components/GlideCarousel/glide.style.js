@@ -59,3 +59,59 @@ const ButtonControlWrapper = styled.div`
   ${justifyContent}
   ${position}
   ${top}
+  ${left}
+  ${right}
+  ${bottom}
+`;
+
+// BulletControlWrapper style
+const BulletControlWrapper = styled.div`
+  ${display}
+  ${space}
+  ${alignItems}
+  ${justifyContent}
+  ${flexWrap}
+`;
+
+// BulletButton style
+const BulletButton = styled.button`
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 50%;
+  background-color: #D6D6D6;
+
+  &:hover,
+  &.glide__bullet--active {
+    background-color: #869791;
+  }
+
+  ${display}
+  ${space}
+  ${color}
+  ${borders}
+  ${boxShadow}
+  ${borderRadius}
+  ${width}
+  ${height}
+`;
+
+// default button style
+const DefaultBtn = styled.button`
+  cursor: pointer;
+  margin: 10px 3px;
+`;
+
+export {
+  GlideSlideWrapper,
+  ButtonControlWrapper,
+  ButtonWrapper,
+  BulletControlWrapper,
+  BulletButton,
+  DefaultBtn,
+};
+export default GlideWrapper;
