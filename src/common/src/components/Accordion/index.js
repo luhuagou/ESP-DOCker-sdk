@@ -107,4 +107,16 @@ AccordionBody.propTypes = {
   /** ClassName of the AccordionBody. Default class is accordion__body */
   className: PropTypes.string,
 
-  /** Used to render any component 
+  /** Used to render any component */
+  children: PropTypes.element,
+};
+
+export {
+  Accordion,
+  AccordionItem,
+  AccordionTitle,
+  AccordionBody,
+  IconWrapper,
+  OpenIcon,
+  CloseIcon,
+};
