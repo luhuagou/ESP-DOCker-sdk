@@ -69,4 +69,42 @@ const AccordionBody = ({ className, children }) => {
 
   // className prop checking
   if (className) {
-    ad
+    addAllClasses.push(className);
+  }
+
+  return (
+    <AccordionBodyWrapper className={addAllClasses.join(' ')}>
+      {children}
+    </AccordionBodyWrapper>
+  );
+};
+
+Accordion.propTypes = {
+  /** ClassName of the Accordion. Default class is reusecore__accordion*/
+  className: PropTypes.string,
+
+  /** Used to render any component */
+  children: PropTypes.element,
+};
+
+AccordionItem.propTypes = {
+  /** ClassName of the AccordionItem. Default class is accordion__item */
+  className: PropTypes.string,
+
+  /** Used to render any component */
+  children: PropTypes.element,
+};
+
+AccordionTitle.propTypes = {
+  /** ClassName of the AccordionTitle. Default class is accordion__header */
+  className: PropTypes.string,
+
+  /** Used to render any component */
+  children: PropTypes.element,
+};
+
+AccordionBody.propTypes = {
+  /** ClassName of the AccordionBody. Default class is accordion__body */
+  className: PropTypes.string,
+
+  /** Used to render any component 
