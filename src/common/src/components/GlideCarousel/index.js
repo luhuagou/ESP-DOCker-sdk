@@ -97,4 +97,40 @@ const GlideCarousel = ({
                 key={index}
                 className="glide__bullet"
                 data-glide-dir={`=${index}`}
-                aria-label={`bullet${i
+                aria-label={`bullet${index + 1}`}
+                {...bulletButtonStyle}
+              />
+            ))}
+          </Fragment>
+        </BulletControlWrapper>
+      )}
+    </GlideWrapper>
+  );
+};
+
+GlideCarousel.propTypes = {
+  /** className of the GlideCarousel. */
+  className: PropTypes.string,
+
+  /** Children. */
+  children: PropTypes.element,
+
+  /** You can add your custom glid options using this prop. */
+  options: PropTypes.object,
+
+  /** Hide || show controls nav. */
+  controls: PropTypes.bool,
+
+  /** Hide || show bullets nav. */
+  bullets: PropTypes.bool,
+
+  /** This prop only take your slider / carousel / testimonials data length. */
+  numberOfBullets: PropTypes.number,
+
+  /** bulletWrapperStyle is a bullet control wrapper style object prop.
+   * It's contain display, space, alignItems,
+   * justifyContent and flexWrap style-system prop.
+   */
+  bulletWrapperStyle: PropTypes.object,
+
+  /** buttonWrapperStyle is a button control wrapper style object prop.
