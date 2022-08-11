@@ -160,4 +160,13 @@ GlideCarousel.propTypes = {
    * It's contain  display, width, height, space,
    * bg, borders, boxShadow and borderRadius style-system prop.
    */
-  bulletButtonStyle: PropTypes.obj
+  bulletButtonStyle: PropTypes.object,
+};
+
+// GlideCarousel default props
+GlideCarousel.defaultProps = {
+  controls: true,
+  bullets: false,
+};
+
+export default GlideCarousel;
