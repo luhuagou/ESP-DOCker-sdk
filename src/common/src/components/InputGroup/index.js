@@ -19,4 +19,46 @@ const InputGroup = ({
   selectedValue,
   currency,
 }) => {
-  const [state, setState] = 
+  const [state, setState] = useState({
+    open: false,
+    currency,
+    selectedValue,
+  });
+
+  const handleDropdown = () => {
+    setState({
+      ...state,
+      open: !state.open,
+    });
+  };
+
+  const handleSelectedData = item => {
+    setState({
+      ...state,
+      open: false,
+      currency: item.title,
+      selectedValue: item.value,
+    });
+    selectOnUpdate(item.value);
+  };
+
+  const dropdownRef = useRef(null);
+  useOnClickOutside(dropdownRef, () => setState({ ...state, open: false }));
+
+  const addAllClasses = ['input_group'];
+  if (className) {
+    addAllClasses.push(className);
+  }
+
+  return (
+    <ComponentWrapper className={addAllClasses.join(' ')}>
+      <Input
+        type={inputType}
+        value={inputValue}
+        placeholder={placeholder}
+        onChange={inputOnChange}
+        required={true}
+      />
+      <SelectWrapper className="select_wrapper">
+        <CurrentOption className="current_option" onClick={handleDropdown}>
+          <span className="text">{state.currency}</spa
