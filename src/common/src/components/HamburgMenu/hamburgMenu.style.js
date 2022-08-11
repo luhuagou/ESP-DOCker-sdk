@@ -44,4 +44,29 @@ const HamburgMenuWrapper = styled.button`
     outline: none;
     > span {
       &:last-child {
-    
+        width: 100%;
+      }
+    }
+  }
+
+  &:focus {
+    > span {
+      &:first-child {
+        transform: rotate(45deg);
+        transform-origin: 8px 50%;
+      }
+      &:nth-child(2) {
+        display: none;
+      }
+      &:last-child {
+        width: 100%;
+        transform: rotate(-45deg);
+        transform-origin: 9px 50%;
+      }
+    }
+  }
+`;
+
+HamburgMenuWrapper.displayName = 'HamburgMenuWrapper';
+
+export default HamburgMenuWrapper;
