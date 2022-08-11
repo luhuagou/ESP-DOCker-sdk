@@ -134,3 +134,30 @@ GlideCarousel.propTypes = {
   bulletWrapperStyle: PropTypes.object,
 
   /** buttonWrapperStyle is a button control wrapper style object prop.
+   * It's contain same as buttonWrapperStyle style-system prop and
+   * position, left, right, top and bottom.
+   */
+  buttonWrapperStyle: PropTypes.object,
+
+  /** prevWrapper is a previous button wrapper style object prop.
+   * It's contain display, space, bg, borders, boxShadow, borderRadius,
+   * position, top, left, right and bottom style-system prop.
+   */
+  prevWrapper: PropTypes.object,
+
+  /** nextWrapper is a next button wrapper style object prop.
+   * It's contain same as prevWrapper style-system prop.
+   */
+  nextWrapper: PropTypes.object,
+
+  /** Set previous button for glide carousel. */
+  prevButton: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+
+  /** Set next button for glide carousel. */
+  nextButton: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+
+  /** bulletButtonStyle is a bullet button style object prop.
+   * It's contain  display, width, height, space,
+   * bg, borders, boxShadow and borderRadius style-system prop.
+   */
+  bulletButtonStyle: PropTypes.obj
