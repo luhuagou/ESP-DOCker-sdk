@@ -65,4 +65,36 @@ const GlideCarousel = ({
         <ButtonControlWrapper
           className="glide__controls"
           data-glide-el="controls"
-          {...buttonWrapperSt
+          {...buttonWrapperStyle}
+        >
+          <ButtonWrapper
+            {...prevWrapper}
+            className="glide__prev--area"
+            data-glide-dir="<"
+          >
+            {prevButton ? prevButton : <DefaultBtn>Prev</DefaultBtn>}
+          </ButtonWrapper>
+          <ButtonWrapper
+            {...nextWrapper}
+            className="glide__next--area"
+            data-glide-dir=">"
+          >
+            {nextButton ? nextButton : <DefaultBtn>Next</DefaultBtn>}
+          </ButtonWrapper>
+        </ButtonControlWrapper>
+      )}
+
+      {/** if bullets prop true then show glide bullets nav */}
+      {bullets && (
+        <BulletControlWrapper
+          className="glide__bullets"
+          data-glide-el="controls[nav]"
+          {...bulletWrapperStyle}
+        >
+          <Fragment>
+            {totalBullets.map(index => (
+              <BulletButton
+                key={index}
+                className="glide__bullet"
+                data-glide-dir={`=${index}`}
+                aria-label={`bullet${i
