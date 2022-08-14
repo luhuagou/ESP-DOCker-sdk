@@ -37,4 +37,53 @@ export const SelectWrapper = styled.div`
 `;
 
 export const CurrentOption = styled.div`
-  cursor: point
+  cursor: pointer;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border: 2px solid #f2f2f2;
+  border-left-width: 1px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  @media only screen and (max-width: 1440px) {
+    height: 60px;
+  }
+
+  .text {
+    color: #294859;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    @media only screen and (max-width: 1440px) {
+      font-size: 16px;
+      margin-right: 15px;
+    }
+  }
+`;
+
+export const Dropdown = styled.ul`
+  position: absolute;
+  left: 0;
+  top: 65px;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 3px 9px -2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 2;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  li {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 20px;
+    color: #616970;
+    border-bottom: 2px solid
