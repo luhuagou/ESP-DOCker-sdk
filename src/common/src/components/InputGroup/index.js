@@ -114,4 +114,15 @@ InputGroup.propTypes = {
   selectedValue: PropTypes.string,
   /** selectOptions prop contain a set of data in array of object form. It has 3 properties id, value and title. */
   selectOptions: PropTypes.array,
-  /** It cont
+  /** It contain selected data. */
+  selectOnUpdate: PropTypes.func,
+};
+
+InputGroup.defaultProps = {
+  inputType: 'number',
+  selectOptions: [],
+  inputOnChange: () => {},
+  selectOnUpdate: () => {},
+};
+
+export default InputGroup;
