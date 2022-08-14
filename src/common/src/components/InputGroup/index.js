@@ -87,4 +87,31 @@ const InputGroup = ({
                   : ''
               }
               key={`option_key${item.id}`}
-              data={item.value.toLowerCase()
+              data={item.value.toLowerCase()}
+              onClick={() => handleSelectedData(item)}
+            >
+              {item.title}
+            </li>
+          ))}
+        </Dropdown>
+      </SelectWrapper>
+    </ComponentWrapper>
+  );
+};
+
+InputGroup.propTypes = {
+  /** className of the InputGroup. */
+  className: PropTypes.string,
+  /** inputType prop for input field type. This should be a number or text. */
+  inputType: PropTypes.oneOf(['number', 'text']),
+  /** placeholder text for input field type. */
+  placeholder: PropTypes.string,
+  /** Call back function for inout onChange event. */
+  inputOnChange: PropTypes.func,
+  /** currency prop shoude be a string with currency name and symbol. */
+  currency: PropTypes.string,
+  /** selectedValue pron shoube be a currency string without symbol but in lowercase. */
+  selectedValue: PropTypes.string,
+  /** selectOptions prop contain a set of data in array of object form. It has 3 properties id, value and title. */
+  selectOptions: PropTypes.array,
+  /** It cont
