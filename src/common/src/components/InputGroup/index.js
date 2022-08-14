@@ -61,4 +61,30 @@ const InputGroup = ({
       />
       <SelectWrapper className="select_wrapper">
         <CurrentOption className="current_option" onClick={handleDropdown}>
-          <span className="text">{state.currency}</spa
+          <span className="text">{state.currency}</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14.994"
+            height="10.993"
+            viewBox="0 0 14.994 10.993"
+          >
+            <path
+              d="M1452.115,6490.792l-7.028-10.076a.449.449,0,0,1-.083-.26.441.441,0,0,1,.055-.212.467.467,0,0,1,.414-.244h14.056a.467.467,0,0,1,.414.244.445.445,0,0,1-.028.472l-7.028,10.077a.473.473,0,0,1-.773,0Zm0,0"
+              transform="translate(-1445.005 -6480)"
+              fill="#bac2c9"
+            />
+          </svg>
+        </CurrentOption>
+        <Dropdown
+          className={`dropdown ${state.open ? 'active' : 'hide'}`}
+          ref={dropdownRef}
+        >
+          {selectOptions.map(item => (
+            <li
+              className={
+                state.selectedValue === item.value.toLowerCase()
+                  ? 'selected'
+                  : ''
+              }
+              key={`option_key${item.id}`}
+              data={item.value.toLowerCase()
