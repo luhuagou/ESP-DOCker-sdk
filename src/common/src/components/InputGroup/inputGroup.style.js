@@ -86,4 +86,26 @@ export const Dropdown = styled.ul`
     font-size: 18px;
     padding: 15px 20px;
     color: #616970;
-    border-bottom: 2px solid
+    border-bottom: 2px solid #f2f2f2;
+    transition: all 0.3s ease;
+    @media only screen and (max-width: 1440px) {
+      font-size: 16px;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    &:hover {
+      color: #294859;
+      background-color: #f2f2f2;
+    }
+
+    &.selected {
+      color: #294859;
+      font-weight: 600;
+    }
+  }
+`;
+
+export default ComponentWrapper;
