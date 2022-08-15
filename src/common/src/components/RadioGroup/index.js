@@ -69,3 +69,13 @@ RadioGroup.propTypes = {
   value: PropTypes.string,
   /** RadioGroup data in array of object form. Each object item should has 3 properties id, title and text. */
   items: PropTypes.array,
+  /** This prop contain active radio field value.*/
+  onUpdate: PropTypes.func,
+};
+
+/** RadioGroup default type. */
+RadioGroup.defaultProps = {
+  onUpdate: () => {},
+};
+
+export default RadioGroup;
