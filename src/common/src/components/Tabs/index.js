@@ -32,4 +32,28 @@ const Tab = ({ active, className, children }) => {
               className={activeClass}
               onClick={() => handleChange(index)}
             >
-         
+              {element.props.title}
+            </MenuItem>
+          );
+        })}
+      </TabMenu>
+      <TabContent className="tab_content">{children[state.active]}</TabContent>
+    </TabWrapper>
+  );
+};
+
+export const Panel = ({ children }) => (
+  <TabPanel className="tab_panel">{children}</TabPanel>
+);
+
+Tab.propTypes = {
+  children: PropTypes.array,
+  active: PropTypes.number.isRequired,
+};
+
+Panel.propTypes = {
+  children: PropTypes.element,
+  title: PropTypes.string.isRequired,
+};
+
+export default Tab;
