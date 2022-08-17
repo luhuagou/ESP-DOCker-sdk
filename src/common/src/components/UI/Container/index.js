@@ -21,4 +21,14 @@ const Container = ({
     <ContainerWrapper
       id={id}
       className={addAllClasses.join(' ')}
-      fullWid
+      fullWidth={fullWidth}
+      noGutter={noGutter}
+      width={width}
+      mobileGutter={mobileGutter}
+    >
+      {children}
+    </ContainerWrapper>
+  );
+};
+
+export default Container;
