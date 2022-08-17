@@ -191,3 +191,245 @@ export const Service = [
   {
     id: 5,
     icon: 'flaticon-creative',
+    title: 'UX Planning',
+    description:
+      'We provide the best UI/UX Design by following the latest trends of the market  .',
+  },
+  {
+    id: 6,
+    icon: 'flaticon-conversation',
+    title: 'Customer Support',
+    description:
+      'A Dedicated support team is always ready to provide best support to our customers.',
+  },
+];
+
+export const Timeline = [
+  {
+    title: 'Wireframing for project',
+    description:
+      'We respect our customer opinions and deals with them with perfect wireframing.',
+  },
+  {
+    title: 'UI/UX for project',
+    description:
+      'We provide the best UI/UX Design by following the latest trends of the market .',
+  },
+  {
+    title: 'Negotiation about project',
+    description:
+      'After the negotiation is done , We start to build the project with latest technology .',
+  },
+];
+
+export const Testimonial = [
+  {
+    id: 1,
+    name: 'Michal Andry',
+    designation: 'Ceo of Invission Co.',
+    comment:
+      'Love to work with this designer in every our future project to ensure we are going to build best prototyping features.',
+    avatar_url: Client1,
+    social_icon: 'flaticon-instagram',
+  },
+  {
+    id: 2,
+    name: 'Roman Ul Oman',
+    designation: 'Co-founder of QatarDiaries',
+    comment:
+      'Impressed with master class support of the team and really look forward for the future. A true passionate team.',
+    avatar_url: Client2,
+    social_icon: 'flaticon-twitter-logo-silhouette',
+  },
+];
+
+export const MENU_ITEMS = [
+  {
+    label: 'Home',
+    path: '#banner_section',
+    offset: '70',
+  },
+  {
+    label: 'Service',
+    path: '#service_section',
+    offset: '70',
+  },
+  {
+    label: 'Feature',
+    path: '#feature_section',
+    offset: '70',
+  },
+  {
+    label: 'Blog',
+    path: '/blog',
+    offset: '70',
+  },
+  {
+    label: 'Testimonial',
+    path: '#testimonial_section',
+    offset: '70',
+  },
+  {
+    label: 'FAQ',
+    path: '#faq_section',
+    offset: '70',
+  },
+];
+
+export const MONTHLY_PRICING_TABLE = [
+  {
+    freePlan: true,
+    name: 'Basic Account',
+    description: 'For Small teams or group who need to build website ',
+    price: '$0',
+    priceLabel: 'Only for first month',
+    buttonLabel: 'CREATE FREE ACCOUNT',
+    url: '#',
+    listItems: [
+      {
+        content: 'Drag & Drop Builder',
+      },
+      {
+        content: '1,000s of Templates Ready',
+      },
+      {
+        content: 'Blog Tools',
+      },
+      {
+        content: 'eCommerce Store ',
+      },
+      {
+        content: '30+ Webmaster Tools',
+      },
+    ],
+  },
+  {
+    name: 'Business Account',
+    description: 'For Mediums teams or group who need to build website ',
+    price: '$9.87',
+    priceLabel: 'Per month & subscription yearly',
+    buttonLabel: 'START FREE TRIAL',
+    url: '#',
+    listItems: [
+      {
+        content: 'Drag & Drop Builder',
+      },
+      {
+        content: '1,000s of Templates Ready',
+      },
+      {
+        content: 'Blog Tools',
+      },
+      {
+        content: 'eCommerce Store ',
+      },
+      {
+        content: '30+ Webmaster Tools',
+      },
+    ],
+  },
+  {
+    name: 'Premium Account',
+    description: 'For Large teams or group who need to build website ',
+    price: '$12.98',
+    priceLabel: 'Per month & subscription yearly',
+    buttonLabel: 'START FREE TRIAL',
+    url: '#',
+    listItems: [
+      {
+        content: 'Drag & Drop Builder',
+      },
+      {
+        content: '1,000s of Templates Ready',
+      },
+      {
+        content: 'Blog Tools',
+      },
+      {
+        content: 'eCommerce Store ',
+      },
+      {
+        content: '30+ Webmaster Tools',
+      },
+    ],
+  },
+];
+
+export const YEARLY_PRICING_TABLE = [
+  {
+    freePlan: true,
+    name: 'Basic Account',
+    description: 'For a single client or team who need to build website ',
+    price: '$0',
+    priceLabel: 'Only for first month',
+    buttonLabel: 'CREATE FREE ACCOUNT',
+    url: '#',
+    listItems: [
+      {
+        content: 'Drag & Drop Builder',
+      },
+      {
+        content: '1,000s of Templates Ready',
+      },
+      {
+        content: 'Blog Tools',
+      },
+      {
+        content: 'eCommerce Store ',
+      },
+      {
+        content: '30+ Webmaster Tools',
+      },
+    ],
+  },
+  {
+    name: 'Business Account',
+    description: 'For Small teams or group who need to build website ',
+    price: '$6.00',
+    priceLabel: 'Per month & subscription yearly',
+    buttonLabel: 'START FREE TRIAL',
+    url: '#',
+    listItems: [
+      {
+        content: 'Unlimited secure storage',
+      },
+      {
+        content: '2,000s of Templates Ready',
+      },
+      {
+        content: 'Blog Tools',
+      },
+      {
+        content: '24/7 phone support',
+      },
+      {
+        content: '50+ Webmaster Tools',
+      },
+    ],
+  },
+  {
+    name: 'Premium Account',
+    description: 'For Large teams or group who need to build website ',
+    price: '$9.99',
+    priceLabel: 'Per month & subscription yearly',
+    buttonLabel: 'START FREE TRIAL',
+    url: '#',
+    listItems: [
+      {
+        content: 'Drag & Drop Builder',
+      },
+      {
+        content: '3,000s of Templates Ready',
+      },
+      {
+        content: 'Advanced branding',
+      },
+      {
+        content: 'Knowledge base support',
+      },
+      {
+        content: '80+ Webmaster Tools',
+      },
+    ],
+  },
+];
