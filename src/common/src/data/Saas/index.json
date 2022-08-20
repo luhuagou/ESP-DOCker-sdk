@@ -32,4 +32,41 @@
       "id": 1,
       "icon": "flaticon-creative",
       "title": "Powerful Features",
-      "description": "Automate time consum
+      "description": "Automate time consuming tasks like organising expenses ,tracking your time and following up with clients "
+    },
+    {
+      "id": 2,
+      "icon": "flaticon-briefing",
+      "title": "Easy Invoicing",
+      "description": "Want to surprice your clients with professional looking invoices ? Then you are some clicks behind ."
+    },
+    {
+      "id": 3,
+      "icon": "flaticon-flask",
+      "title": "Easy To Use",
+      "description": "Very Simple and intuitive. So you have to spend less time in paperwork and impress your customer with looks"
+    }
+  ],
+  "Footer_Data": [
+    {
+      "title": "About Us",
+      "menuItems": [
+        {
+          "url": "#",
+          "text": "Support Center"
+        },
+        {
+          "url": "#",
+          "text": "Customer Support"
+        },
+        {
+          "url": "#",
+          "text": "About Us"
+        },
+        {
+          "url": "#",
+          "text": "Copyright"
+        },
+        {
+          "url": "#",
+          "text": "Po
