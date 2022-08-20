@@ -13,4 +13,23 @@
     },
     {
       "id": 3,
-      "title": "Website reponse taking time, how to improve?"
+      "title": "Website reponse taking time, how to improve?",
+      "description": "At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum ."
+    },
+    {
+      "id": 4,
+      "title": "New update fixed all bug and issues?",
+      "description": "We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us ."
+    },
+    {
+      "id": 4,
+      "title": "New update fixed all bug and issues?",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    }
+  ],
+  "Features": [
+    {
+      "id": 1,
+      "icon": "flaticon-creative",
+      "title": "Powerful Features",
+      "description": "Automate time consum
