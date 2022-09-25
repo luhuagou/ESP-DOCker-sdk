@@ -166,4 +166,32 @@
     },
     {
       "id": 4,
-      "icon": "flati
+      "icon": "flaticon-ruler",
+      "title": "Client Satisfaction",
+      "description": "Client Satisfaction is our first priority and We are best at it .Keep In Touch."
+    },
+    {
+      "id": 5,
+      "icon": "flaticon-creative",
+      "title": "UX Planning",
+      "description": "We provide the best UI/UX Design by following the latest trends of the market  ."
+    },
+    {
+      "id": 6,
+      "icon": "flaticon-conversation",
+      "title": "Customer Support",
+      "description": "A Dedicated support team is always ready to provide best support to our customers."
+    }
+  ],
+  "Timeline": [
+    {
+      "title": "Wireframing for project",
+      "description": "We respect our customer opinions and deals with them with perfect wireframing."
+    },
+    {
+      "title": "UI/UX for project",
+      "description": "We provide the best UI/UX Design by following the latest trends of the market ."
+    },
+    {
+      "title": "Negotiation about project",
+      "description": "After the nego
