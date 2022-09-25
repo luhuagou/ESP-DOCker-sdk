@@ -124,4 +124,46 @@
       ]
     },
     {
-      "t
+      "title": "Policy",
+      "menuItems": [
+        {
+          "url": "#",
+          "text": "Application security"
+        },
+        {
+          "url": "#",
+          "text": "Software principles"
+        },
+        {
+          "url": "#",
+          "text": "Unwanted software policy"
+        },
+        {
+          "url": "#",
+          "text": "Responsible supply chain"
+        }
+      ]
+    }
+  ],
+  "Service": [
+    {
+      "id": 1,
+      "icon": "flaticon-briefing",
+      "title": "App Development",
+      "description": "We are specialized at custom Saas Application Development and special features ."
+    },
+    {
+      "id": 2,
+      "icon": "flaticon-trophy",
+      "title": "10 Times Award",
+      "description": "We are globally recognised for our services and won a lot of prices around the world ."
+    },
+    {
+      "id": 3,
+      "icon": "flaticon-atom",
+      "title": "Cloud Stroage",
+      "description": "LiteSpeed Web Server known for its high performance and low resource consumption."
+    },
+    {
+      "id": 4,
+      "icon": "flati
