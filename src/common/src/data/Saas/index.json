@@ -223,4 +223,47 @@
       "offset": "70"
     },
     {
-      "label": "
+      "label": "Service",
+      "path": "#service_section",
+      "staticLink": false,
+      "offset": "70"
+    },
+    {
+      "label": "Feature",
+      "path": "#feature_section",
+      "staticLink": false,
+      "offset": "70"
+    },
+    {
+      "label": "Blog",
+      "path": "/blog",
+      "staticLink": true,
+      "offset": "70"
+    },
+    {
+      "label": "Testimonial",
+      "path": "#testimonial_section",
+      "staticLink": false,
+      "offset": "70"
+    },
+    {
+      "label": "FAQ",
+      "path": "#faq_section",
+      "staticLink": false,
+      "offset": "70"
+    }
+  ],
+  "MONTHLY_PRICING_TABLE": [
+    {
+      "freePlan": true,
+      "name": "Basic Account",
+      "description": "For Small teams or group who need to build website ",
+      "price": "$0",
+      "priceLabel": "Only for first month",
+      "buttonLabel": "CREATE FREE ACCOUNT",
+      "url": "#",
+      "listItems": [
+        {
+          "content": "Drag & Drop Builder"
+        },
+  
