@@ -266,4 +266,45 @@
         {
           "content": "Drag & Drop Builder"
         },
-  
+        {
+          "content": "1,000s of Templates Ready"
+        },
+        {
+          "content": "Blog Tools"
+        },
+        {
+          "content": "eCommerce Store "
+        },
+        {
+          "content": "30+ Webmaster Tools"
+        }
+      ]
+    },
+    {
+      "name": "Business Account",
+      "description": "For Mediums teams or group who need to build website ",
+      "price": "$9.87",
+      "priceLabel": "Per month & subscription yearly",
+      "buttonLabel": "START FREE TRIAL",
+      "url": "#",
+      "listItems": [
+        {
+          "content": "Drag & Drop Builder"
+        },
+        {
+          "content": "1,000s of Templates Ready"
+        },
+        {
+          "content": "Blog Tools"
+        },
+        {
+          "content": "eCommerce Store "
+        },
+        {
+          "content": "30+ Webmaster Tools"
+        }
+      ]
+    },
+    {
+      "name": "Premium Account",
+      "description": "For Larg
