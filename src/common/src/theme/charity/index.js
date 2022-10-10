@@ -1,12 +1,10 @@
 
 import colors from './colors';
-export const appTheme = {
-  breakpoints: [480, 768, 990, 1440],
+export const charityTheme = {
+  breakpoints: [480, 768, 990, 1220],
   space: [0, 5, 10, 15, 20, 25, 30, 40, 56, 71, 91],
-  fontSizes: [12, 14, 15, 16, 20, 24, 36, 48, 55, 60, 81],
+  fontSizes: [10, 12, 14, 15, 16, 20, 24, 36, 48, 55, 60, 81],
   fontWeights: [300, 400, 500, 600, 700, 800, 900],
-  height: [12, 24, 36, 48],
-  width: [12, 24, 36, 48],
   lineHeights: {
     solid: 1,
     title: 1.25,
@@ -19,7 +17,7 @@ export const appTheme = {
     mega: '0.25em',
   },
   fonts: {
-    roboto: '"Open Sans", sans-serif',
+    roboto: '"Roboto", sans-serif',
   },
   borders: [0, '1px solid', '2px solid', '4px solid'],
   radius: [0, 3, 5, 10, 15, 20, 25, 50, 60, '50%'],
@@ -58,7 +56,7 @@ export const appTheme = {
       },
     },
     primaryWithBg: {
-      color: colors.white,
+      color: colors.heading,
       backgroundColor: colors.primary,
       borderColor: colors.primary,
       '&:hover': {
@@ -76,7 +74,7 @@ export const appTheme = {
       },
     },
     warningWithBg: {
-      color: colors.white,
+      color: colors.heading,
       backgroundColor: colors.yellow,
       borderColor: colors.yellow,
       '&:hover': {
@@ -100,7 +98,7 @@ export const appTheme = {
       color: colors.primary,
       padding: 0,
       height: 'auto',
-      backgroundColor: colors.transparent,
+      backgroundColor: `${colors.transparent}`,
     },
     outlined: {
       borderWidth: '1px',
