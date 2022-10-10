@@ -348,4 +348,45 @@
           "content": "1,000s of Templates Ready"
         },
         {
-          "content": "
+          "content": "Blog Tools"
+        },
+        {
+          "content": "eCommerce Store "
+        },
+        {
+          "content": "30+ Webmaster Tools"
+        }
+      ]
+    },
+    {
+      "name": "Business Account",
+      "description": "For Small teams or group who need to build website ",
+      "price": "$6.00",
+      "priceLabel": "Per month & subscription yearly",
+      "buttonLabel": "START FREE TRIAL",
+      "url": "#",
+      "listItems": [
+        {
+          "content": "Unlimited secure storage"
+        },
+        {
+          "content": "2,000s of Templates Ready"
+        },
+        {
+          "content": "Blog Tools"
+        },
+        {
+          "content": "24/7 phone support"
+        },
+        {
+          "content": "50+ Webmaster Tools"
+        }
+      ]
+    },
+    {
+      "name": "Premium Account",
+      "description": "For Large teams or group who need to build website ",
+      "price": "$9.99",
+      "priceLabel": "Per month & subscription yearly",
+      "buttonLabel": "START FREE TRIAL",
+     
