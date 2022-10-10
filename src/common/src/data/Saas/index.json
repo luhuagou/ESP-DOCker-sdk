@@ -389,4 +389,24 @@
       "price": "$9.99",
       "priceLabel": "Per month & subscription yearly",
       "buttonLabel": "START FREE TRIAL",
-     
+      "url": "#",
+      "listItems": [
+        {
+          "content": "Drag & Drop Builder"
+        },
+        {
+          "content": "3,000s of Templates Ready"
+        },
+        {
+          "content": "Advanced branding"
+        },
+        {
+          "content": "Knowledge base support"
+        },
+        {
+          "content": "80+ Webmaster Tools"
+        }
+      ]
+    }
+  ]
+}
