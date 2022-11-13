@@ -15,3 +15,6 @@ const colors = {
   yellow: '#fdb32a', // 12
   yellowHover: '#F29E02', // 13
   primaryBoxShadow: ' 0px 9px 19.74px 1.26px rgba(256, 122, 89, 0.57) ',
+};
+
+export default colors;
