@@ -12,4 +12,11 @@ const colors = {
   primaryHover: '#ff4265', // 9
   secondary: '#edcd37', // 10
   secondaryHover: '#edcd37', // 11
-  yellow: '#fdb32a', // 
+  yellow: '#fdb32a', // 12
+  yellowHover: '#F29E02', // 13
+  borderColor: '#1b1e25', //14
+  primaryBoxShadow: '0px 8px 20px -6px rgba(255, 66, 101, 0.57)',
+  secondaryBoxShadow: '0px 8px 20px -6px rgba(237, 205, 55, 0.5)',
+};
+
+export default colors;
