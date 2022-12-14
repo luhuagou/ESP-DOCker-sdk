@@ -44,4 +44,41 @@ export const saasModernTheme = {
       color: colors.secondary,
       borderColor: colors.transparent,
       backgroundColor: colors.transparent,
-      '&:h
+      '&:hover': {
+        color: colors.secondaryHover,
+        borderColor: colors.transparent,
+        backgroundColor: colors.transparent,
+      },
+    },
+    warning: {
+      color: colors.yellow,
+      borderColor: colors.yellow,
+      '&:hover': {
+        color: colors.yellowHover,
+        borderColor: colors.yellowHover,
+      },
+    },
+    error: {
+      color: colors.secondaryHover,
+      borderColor: colors.secondaryHover,
+      '&:hover': {
+        color: colors.secondary,
+        borderColor: colors.secondary,
+      },
+    },
+    primaryWithBg: {
+      color: colors.white,
+      backgroundColor: colors.primary,
+      borderColor: colors.primary,
+      border: '1px solid',
+      '&:hover': {
+        color: colors.white,
+        backgroundColor: colors.primaryHover,
+        borderColor: colors.primaryHover,
+        boxShadow: colors.primaryBoxShadow,
+      },
+    },
+    secondaryWithBg: {
+      color: colors.black,
+      backgroundColor: colors.secondary,
+      borderColor
