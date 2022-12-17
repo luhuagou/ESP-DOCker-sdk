@@ -81,4 +81,41 @@ export const saasModernTheme = {
     secondaryWithBg: {
       color: colors.black,
       backgroundColor: colors.secondary,
-      borderColor
+      borderColor: colors.secondary,
+      '&:hover': {
+        color: colors.black,
+        backgroundColor: colors.secondaryHover,
+        borderColor: colors.secondaryHover,
+        boxShadow: colors.secondaryBoxShadow,
+      },
+    },
+    warningWithBg: {
+      color: colors.white,
+      backgroundColor: colors.yellow,
+      borderColor: colors.yellow,
+      '&:hover': {
+        backgroundColor: colors.yellowHover,
+        borderColor: colors.yellowHover,
+      },
+    },
+    errorWithBg: {
+      color: colors.white,
+      backgroundColor: colors.secondaryHover,
+      borderColor: colors.secondaryHover,
+      '&:hover': {
+        backgroundColor: colors.secondary,
+        borderColor: colors.secondary,
+      },
+    },
+    transparentBg: {
+      backgroundColor: colors.white,
+      '&:hover': {
+        backgroundColor: colors.white,
+      },
+    },
+  },
+  buttonStyles: {
+    textButton: {
+      border: 0,
+      color: colors.primary,
+      paddin
