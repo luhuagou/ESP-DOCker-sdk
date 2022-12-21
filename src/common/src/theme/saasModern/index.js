@@ -118,4 +118,35 @@ export const saasModernTheme = {
     textButton: {
       border: 0,
       color: colors.primary,
-      paddin
+      padding: 0,
+      height: 'auto',
+      backgroundColor: colors.transparent,
+    },
+    outlined: {
+      borderWidth: '1px',
+      borderStyle: 'solid',
+      backgroundColor: colors.transparent,
+    },
+    fab: {
+      border: '0',
+      width: '40px',
+      height: '40px',
+      padding: 0,
+      borderRadius: '50%',
+      justifyContent: 'center',
+      'span.btn-icon': {
+        paddingLeft: 0,
+      },
+    },
+    extendedFab: {
+      border: '0',
+      minWidth: '50px',
+      height: '40px',
+      borderRadius: '50px',
+      justifyContent: 'center',
+    },
+  },
+  // FlexBox: {
+  //   backgroundColor: 'green'
+  // }
+};
