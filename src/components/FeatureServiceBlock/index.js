@@ -64,4 +64,40 @@ const FeatureBlock = ({
       {title || description ? (
         <Fragment>
           <ContentWrapper className="content__wrapper" {...contentStyle}>
-            <div 
+            <div className="content__desc">
+              {title}
+              {description}
+            </div>
+            {itemNumber && (
+              <p>{`${itemNumber} items`}</p>
+            )}
+            {time && (
+              <p className="content__time">{time}</p>
+            )}
+            {buttonInfo && (              
+              <Button
+                title={buttonInfo.caption}
+                className="start_button"
+                onClick={() => navigate(buttonInfo.link)}
+                {...buttonStyle}
+              />
+            )}
+          </ContentWrapper>
+          {additionalContent}
+        </Fragment>
+      ) : (
+        ''
+      )}
+    </FeatureBlockWrapper>
+  );
+};
+
+FeatureBlock.propTypes = {
+  /** ClassName of the FeatureBlock */
+  className: PropTypes.string,
+
+  /** title prop contain a react component. You can use our Heading component from reusecore */
+  title: PropTypes.element,
+
+  /** description prop contain a react component. You can use our Text component from reusecore */
+  description: Pr
