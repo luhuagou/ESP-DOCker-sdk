@@ -100,4 +100,36 @@ FeatureBlock.propTypes = {
   title: PropTypes.element,
 
   /** description prop contain a react component. You can use our Text component from reusecore */
-  description: Pr
+  description: PropTypes.element,
+
+  /** Set icon position of the FeatureBlock */
+  iconPosition: PropTypes.oneOf(['top', 'left', 'right']),
+
+  /** wrapperStyle prop contain these style system props:  display, flexWrap, width, height, alignItems,
+   * justifyContent, position, overflow, space, color, borders, borderColor, boxShadow and borderRadius. */
+  wrapperStyle: PropTypes.object,
+
+  /** contentStyle prop contain these style system props: width, textAlign and space. */
+  contentStyle: PropTypes.object,
+
+  /** btnWrapperStyle prop contain these style system props: display, space, alignItems,
+   * flexDirection and justifyContent. */
+  btnWrapperStyle: PropTypes.object,
+};
+
+FeatureBlock.defaultProps = {
+  iconPosition: 'top',
+  buttonStyle: {
+    type: 'button',
+    fontSize: '14px',
+    fontWeight: '600',
+    borderRadius: '4px',
+    pl: '10px',
+    pr: '10px',
+    colors: 'primary',
+    width: '222px',
+    maxWidth: '100%',
+  },
+};
+
+export default FeatureBlock;
