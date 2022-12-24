@@ -126,3 +126,18 @@ const ContentWrapper = styled.div`
 
   .start_button {
     width: 100%;
+    font-size: 14px;
+  }
+`;
+
+// Button wrapper style
+const ButtonWrapper = styled.div`
+  ${display}
+  ${space}
+  ${alignItems}
+  ${flexDirection}
+  ${justifyContent}
+`;
+
+export { IconWrapper, ContentWrapper, ButtonWrapper };
+export default FeatureBlockWrapper;
