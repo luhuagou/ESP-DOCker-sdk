@@ -22,3 +22,21 @@ const Pagination = ({
         {prevLink && (
           <Link to={`${prevLink}`} aria-label="Prev">
             <IoMdArrowRoundBack />
+          </Link>
+        )}
+      </PrevPage>
+
+      <PageNumber>{`Page ${currentPage} Of ${totalPage}`}</PageNumber>
+
+      <NextPage>
+        {nextLink && (
+          <Link to={`${nextLink}`} aria-label="Next">
+            <IoMdArrowRoundForward />
+          </Link>
+        )}
+      </NextPage>
+    </PaginationWrapper>
+  );
+};
+
+export default Pagination;
