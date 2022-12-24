@@ -60,4 +60,69 @@ const FeatureBlockWrapper = styled.div`
   box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
   margin: 15px;
-  p
+  padding: 0px;
+  height: auto;
+
+  .icon_container {
+    height: 200px;
+    background: #5166DA !important;
+    padding: 0px;
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      color: white;
+      font-size: 16px;
+    }
+  }
+`;
+
+// Icon wrapper style
+const IconWrapper = styled.div`
+  ${display}
+  ${width}
+  ${height}
+  ${alignItems}
+  ${justifyContent}
+  ${position}
+  ${color}
+  ${space}
+  ${borders}
+  ${borderColor}
+  ${boxShadow}
+  ${borderRadius}
+  ${overflow}
+  ${fontSize}
+  margin-top: 24px;
+`;
+
+// Content wrapper style
+const ContentWrapper = styled.div`
+  ${width}
+  ${space}
+  ${textAlign}  
+  padding: 24px 32px !important;
+
+  .content__desc {
+    height: 120px;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-weight: 600;
+    color: #0f2137;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .content__time {
+    color: #5166DA;
+  }
+
+  .start_button {
+    width: 100%;
