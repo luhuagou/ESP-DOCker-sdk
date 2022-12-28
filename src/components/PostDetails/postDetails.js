@@ -42,4 +42,34 @@ const PostDetails = ({
                 <Col xs={8} className="post-author-tag__text">
                   <p>
                     Written by
-     
+                    <a href="#">Eddie Shleyner</a>
+                  </p>
+                  <a href="https://twitter.com/VeryGoodCopy" className="post-author-tag__twitter">
+                    @VeryGoodCopy
+                  </a>
+                </Col>
+              </Row>
+            </Col>
+            <Col md={7} sm={12} className="post-header__image">
+              <Img fluid={preview} alt={title} />
+            </Col>
+          </Row>
+        </PostPreview>
+      )}
+      <PostDescriptionWrapper className="post_des_wrapper">
+        <PostDate>{date}</PostDate>
+        <PostDescription
+          dangerouslySetInnerHTML={{ __html: description }}
+          className="post_des"
+        />
+        {tags === null ? null : (
+          <PostTags>
+            {tags.map((tag, index) => (
+              <Link key={index} to={`/tags/${_.kebabCase(tag)}/`}>
+                {`#${tag}`}
+              </Link>
+            ))}
+          </PostTags>
+        )}
+      </PostDescriptionWrapper>
+    </PostDetail
