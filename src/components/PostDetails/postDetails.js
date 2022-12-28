@@ -72,4 +72,12 @@ const PostDetails = ({
           </PostTags>
         )}
       </PostDescriptionWrapper>
-    </PostDetail
+    </PostDetailsWrapper>
+  )
+}
+
+PostDetails.defaultProps = {
+  imagePosition: "top",
+}
+
+export default PostDetails
