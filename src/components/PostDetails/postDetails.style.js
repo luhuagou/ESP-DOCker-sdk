@@ -168,4 +168,51 @@ export const PostDescription = styled.div`
   blockquote {
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
-  
+    font-weight: 500;
+    line-height: 2;
+    margin: 60px 0;
+    @media (max-width: 1200px) {
+      margin: 50px 0;
+      font-size: 19px;
+    }
+    @media (max-width: 575px) {
+      margin: 40px 0;
+      font-size: 15px;
+    }
+    &:before,
+    &:after {
+      content: '';
+      width: 30px;
+      height: 1px;
+      display: block;
+      background: #292929;
+    }
+    &:before {
+      margin-bottom: 60px;
+      @media (max-width: 1200px) {
+        margin-bottom: 50px;
+      }
+      @media (max-width: 575px) {
+        margin-bottom: 40px;
+      }
+    }
+    &:after {
+      margin-top: 60px;
+      @media (max-width: 1200px) {
+        margin-top: 50px;
+      }
+      @media (max-width: 575px) {
+        margin-top: 40px;
+      }
+    }
+
+    p {
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 2;
+      margin-bottom: 23px;
+      @media (max-width: 1200px) {
+        font-size: 19px;
+      }
+      @media (max-width: 1200px) {
+   
