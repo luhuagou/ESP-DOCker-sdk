@@ -215,4 +215,41 @@ export const PostDescription = styled.div`
         font-size: 19px;
       }
       @media (max-width: 1200px) {
-   
+        font-size: 17px;
+      }
+      @media (max-width: 575px) {
+        font-size: 15px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    h4 {
+      font-size: 16px;
+      margin: 0;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  a {
+    font-weight: 500;
+    transition: 0.15s ease-in-out;
+    color: ${themeGet('primary', '#D10068')};
+  }
+`;
+
+export const PostTags = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 60px;
+
+  a {
+    display: block;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: ${themeGet('primary', '#D10068')};
+  }
+`;
