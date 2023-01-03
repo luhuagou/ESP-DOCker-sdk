@@ -89,4 +89,14 @@ const DiscountLabel = styled.div`
   border-radius: 4em;
   border: 1px solid ${themeGet('colors.lightBorder', '#f1f4f6')};
   padding: 7px 25px;
-  box-shadow: 0px 7px 25px 0px rgba(22, 53, 76,
+  box-shadow: 0px 7px 25px 0px rgba(22, 53, 76, 0.05);
+  margin-bottom: 30px;
+  background-color: ${themeGet('colors.white', '#ffffff')};
+  @media (max-width: 767px) {
+    padding: 7px 15px;
+  }
+`;
+
+export { DiscountLabel, BannerObject };
+
+export default BannerWrapper;
