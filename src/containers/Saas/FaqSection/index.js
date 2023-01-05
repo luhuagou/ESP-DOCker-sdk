@@ -13,4 +13,46 @@ import {
   AccordionBody,
   IconWrapper,
   OpenIcon,
- 
+  CloseIcon,
+} from '../../../common/src/components/Accordion';
+import { Icon } from 'react-icons-kit';
+import { plus } from 'react-icons-kit/entypo/plus';
+import { minus } from 'react-icons-kit/entypo/minus';
+import FaqSectionWrapper from './faqSection.style';
+
+const FaqSection = ({
+  sectionHeader,
+  sectionTitle,
+  sectionSubTitle,
+  titleStyle,
+  descriptionStyle,
+  buttonWrapper,
+  button,
+}) => {
+  const Data = useStaticQuery(graphql`
+    query {
+      allContentfulFaq {
+        edges {
+          node {
+            title
+            subtitle
+            module {
+              question
+              answer
+            }
+            button {
+              caption
+            }
+          }
+        }
+      }
+    }
+  `);
+  const faqData = Data.allContentfulFaq.edges[0].node;
+
+  return (
+    <FaqSectionWrapper id="faq_section">
+      <Container>
+        <Box {...sectionHeader}>
+          <Text
+            content={faqData.subtitle}
