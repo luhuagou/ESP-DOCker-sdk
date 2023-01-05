@@ -84,4 +84,46 @@ const FaqSection = ({
                     </AccordionTitle>
                     <AccordionBody>
                       <Text
-       
+                        content={faqItem.answer}
+                        {...descriptionStyle}
+                      />
+                    </AccordionBody>
+                  </Fragment>
+                </AccordionItem>
+              ))}
+            </Fragment>
+          </Accordion>
+          <Box {...buttonWrapper}>
+            <a href="#1">
+              <Button
+                title={faqData.button.caption}
+                {...button}
+              />
+            </a>
+          </Box>
+        </Box>
+      </Container>
+    </FaqSectionWrapper>
+  );
+};
+
+// FaqSection style props
+FaqSection.propTypes = {
+  sectionHeader: PropTypes.object,
+  row: PropTypes.object,
+  col: PropTypes.object,
+  sectionTitle: PropTypes.object,
+  sectionSubTitle: PropTypes.object,
+  buttonWrapper: PropTypes.object,
+  button: PropTypes.object,
+};
+
+// FaqSection default style
+FaqSection.defaultProps = {
+  // section header default style
+  sectionHeader: {
+    mb: '56px',
+  },
+  // sub section default style
+  sectionSubTitle: {
+    as: 'span',
