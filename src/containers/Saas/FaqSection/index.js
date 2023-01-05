@@ -56,3 +56,32 @@ const FaqSection = ({
         <Box {...sectionHeader}>
           <Text
             content={faqData.subtitle}
+            {...sectionSubTitle}
+          />
+          <Heading
+            content={faqData.title}
+            {...sectionTitle}
+          />
+        </Box>
+        <Box className="row">
+          <Accordion>
+            <Fragment>
+              {faqData.module.map((faqItem, index) => (
+                <AccordionItem key={index} expanded={faqItem.expend}>
+                  <Fragment>
+                    <AccordionTitle>
+                      <Fragment>
+                        <Heading content={faqItem.question} {...titleStyle} />
+                        <IconWrapper>
+                          <OpenIcon>
+                            <Icon icon={minus} size={18} />
+                          </OpenIcon>
+                          <CloseIcon>
+                            <Icon icon={plus} size={18} />
+                          </CloseIcon>
+                        </IconWrapper>
+                      </Fragment>
+                    </AccordionTitle>
+                    <AccordionBody>
+                      <Text
+       
