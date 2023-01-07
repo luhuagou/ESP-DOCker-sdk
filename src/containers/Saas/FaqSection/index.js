@@ -127,3 +127,54 @@ FaqSection.defaultProps = {
   // sub section default style
   sectionSubTitle: {
     as: 'span',
+    display: 'block',
+    textAlign: 'center',
+    fontSize: '14px',
+    letterSpacing: '0.15em',
+    fontWeight: '700',
+    color: '#5268db',
+    mb: '5px',
+  },
+  // section title default style
+  sectionTitle: {
+    textAlign: 'center',
+    fontSize: ['20px', '24px'],
+    fontWeight: '400',
+    color: '#0f2137',
+    letterSpacing: '-0.025em',
+    mb: '0',
+  },
+  // accordion title default style
+  titleStyle: {
+    fontSize: ['16px', '19px'],
+    fontWeight: '400',
+    color: '#0f2137',
+    letterSpacing: '-0.025em',
+    mb: '0',
+  },
+  // accordion description default style
+  descriptionStyle: {
+    fontSize: '15px',
+    color: '#5d646d',
+    lineHeight: '1.75',
+    mb: '0',
+    fontWeight: '400',
+  },
+  buttonWrapper: {
+    mt: `${11}`,
+    flexBox: true,
+    justifyContent: 'center',
+  },
+  button: {
+    type: 'button',
+    fontSize: `${2}`,
+    fontWeight: '600',
+    borderRadius: '4px',
+    pl: '22px',
+    pr: '22px',
+    colors: 'primary',
+    height: `${4}`,
+  },
+};
+
+export default 
