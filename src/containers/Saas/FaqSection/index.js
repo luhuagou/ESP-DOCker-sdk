@@ -177,4 +177,4 @@ FaqSection.defaultProps = {
   },
 };
 
-export default 
+export default FaqSection;
