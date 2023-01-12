@@ -48,4 +48,15 @@ const ListItem = styled.li`
     font-size: 14px;
     line-height: 36px;
     transition: all 0.2s ease;
-    &:
+    &:hover,
+    &:focus {
+      outline: 0;
+      text-decoration: none;
+      color: #343d48;
+    }
+  }
+`;
+
+export { List, ListItem };
+
+export default FooterWrapper;
