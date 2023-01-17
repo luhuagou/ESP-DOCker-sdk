@@ -55,4 +55,50 @@ const Footer = ({
                 <List>
                   {widget.menuItems.map((item, index) => (
                     <ListItem key={`footer-list-item-${index}`}>
-                      <a href={item.url} className
+                      <a href={item.url} className="ListItem">
+                        {item.text}
+                      </a>
+                    </ListItem>
+                  ))}
+                </List>
+              </Box>
+            ))}
+          </Box>
+          {/* End of footer List column */}
+        </Box>
+      </Container>
+    </FooterWrapper>
+  );
+};
+
+// Footer style props
+Footer.propTypes = {
+  row: PropTypes.object,
+  col: PropTypes.object,
+  colOne: PropTypes.object,
+  colTwo: PropTypes.object,
+  titleStyle: PropTypes.object,
+  textStyle: PropTypes.object,
+  logoStyle: PropTypes.object,
+};
+
+// Footer default style
+Footer.defaultProps = {
+  // Footer row default style
+  row: {
+    flexBox: true,
+    flexWrap: 'wrap',
+    ml: '-15px',
+    mr: '-15px',
+  },
+  // Footer col one style
+  colOne: {
+    width: [1, '35%', '35%', '23%'],
+    mt: [0, '13px'],
+    mb: ['30px', 0],
+    pl: ['15px', 0],
+    pr: ['15px', '15px', 0],
+  },
+  // Footer col two style
+  colTwo: {
+    width: ['100%', '65%', '
