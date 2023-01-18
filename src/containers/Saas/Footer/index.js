@@ -101,4 +101,36 @@ Footer.defaultProps = {
   },
   // Footer col two style
   colTwo: {
-    width: ['100%', '65%', '
+    width: ['100%', '65%', '65%', '77%'],
+    flexBox: true,
+    flexWrap: 'wrap',
+  },
+  // Footer col default style
+  col: {
+    width: ['100%', '50%', '50%', '25%'],
+    pl: '15px',
+    pr: '15px',
+    mb: '30px',
+  },
+  // widget title default style
+  titleStyle: {
+    color: '#343d48',
+    fontSize: '16px',
+    fontWeight: '700',
+    mb: '30px',
+  },
+  // Default logo size
+  logoStyle: {
+    width: '160px',
+    mb: '15px',
+    ml: '-10px',
+  },
+  // widget text default style
+  textStyle: {
+    color: '#0f2137',
+    fontSize: '16px',
+    mb: '10px',
+  },
+};
+
+export default Footer;
