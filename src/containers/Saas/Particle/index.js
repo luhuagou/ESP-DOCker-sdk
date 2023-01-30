@@ -68,4 +68,19 @@ const ParticlesComponent = () => {
               enable: false,
             },
             move: {
-  
+              enable: true,
+              speed: 1.5,
+              direction: 'none',
+              random: false,
+              straight: false,
+              bounce: true,
+              attract: { enable: true, rotateX: 100, rotateY: 400 },
+            },
+          },
+          retina_detect: true,
+        }}
+      />
+    </>
+  );
+};
+export default ParticlesComponent;
