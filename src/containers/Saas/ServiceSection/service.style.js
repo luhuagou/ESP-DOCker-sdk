@@ -12,4 +12,52 @@ const ServiceSectionWrapper = styled.section`
     transition: box-shadow 0.3s ease;
     display: flex;
     @media (max-width: 500px) {
-   
+      padding: 30px 0;
+    }
+    .icon__wrapper {
+      position: relative;
+      border-bottom-right-radius: 6px;
+      flex-shrink: 0;
+      margin-right: 22px;
+      background: #fff5f6;
+      .flaticon-flask {
+        &:before {
+          margin-left: 8px;
+        }
+      }
+    }
+    &:hover {
+      ${'' /* box-shadow: 0 40px 90px -30px rgba(39, 79, 117, 0.2); */}
+    }
+  }
+
+  .row {
+    > .col {
+      &:nth-child(-n + 3) {
+      }
+
+      &:nth-child(3n + 3),
+      &:last-child {
+      }
+      &:nth-child(1) {
+        .feature__block {
+          .icon__wrapper {
+            background: #fec887;
+            color: #f55767;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .feature__block {
+          .icon__wrapper {
+            background: #fec887;
+            color: #29c05e;
+          }
+        }
+      }
+      &:nth-child(3) {
+        .feature__block {
+          .icon__wrapper {
+            background: #fec887;
+            c
