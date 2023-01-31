@@ -60,4 +60,36 @@ const ServiceSectionWrapper = styled.section`
         .feature__block {
           .icon__wrapper {
             background: #fec887;
-            c
+            color: #2595d4;
+          }
+        }
+      }
+      &:nth-child(4) {
+        .feature__block {
+          .icon__wrapper {
+            background: #fec887;
+            color: #e9b600;
+          }
+        }
+      }
+      &:nth-child(5) {
+        .feature__block {
+          .icon__wrapper {
+            background: #fec887;
+            color: #a55cef;
+          }
+        }
+      }
+      &:nth-child(6) {
+        .feature__block {
+          .icon__wrapper {
+            background: #fec887;
+            color: #e764a5;
+          }
+        }
+      }
+    }
+  }
+`;
+
+export default ServiceSectionWrapper;
