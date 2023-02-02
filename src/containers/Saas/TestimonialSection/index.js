@@ -53,3 +53,40 @@ const TestimonialSection = ({
 
   const testimonialData = Data.allContentfulTestimonial.edges[0].node;
 
+  // Glide js options
+  const glideOptions = {
+    type: 'carousel',
+    autoplay: 4000,
+    perView: 1,
+  };
+
+  return (
+    <TestimonialSectionWrapper id="testimonial_section">
+      <Container>
+        <Text content={testimonialData.title} {...sectionSubTitle} />
+        <GlideCarousel
+          options={glideOptions}
+          buttonWrapperStyle={btnWrapperStyle}
+          nextButton={
+            <Button
+              icon={<i className="flaticon-next" />}
+              variant="textButton"
+              aria-label="next"
+              {...btnStyle}
+            />
+          }
+          prevButton={
+            <Button
+              icon={<i className="flaticon-left-arrow" />}
+              variant="textButton"
+              aria-label="prev"
+              {...btnStyle}
+            />
+          }
+        >
+          <Fragment>
+            {testimonialData.module.map((item, index) => (
+              <GlideSlide key={index}>
+                <Fragment>
+                  <TextWrapper>
+          
