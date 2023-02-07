@@ -110,3 +110,33 @@ TrialSection.defaultProps = {
     fontWeight: '400',
     color: 'headingColor',
     letterSpacing: '-0.025em',
+    mb: '28px',
+    textAlign: 'center',
+    lineHeight: '1.25',
+  },
+  description: {
+    fontSize: ['15px', '15px', '16px', '16px', '16px'],
+    color: 'textColor',
+    lineHeight: '2.1',
+    textAlign: 'center',
+    mb: ['35px', '35px', '40px', '60px'],
+  },
+  ImageOne: {
+    ml: 'auto',
+    mr: 'auto',
+  },
+  btnStyle: {
+    minWidth: '156px',
+    fontSize: '14px',
+    fontWeight: '500',
+    colors: 'primaryWithBg',
+  },
+  outlineBtnStyle: {
+    minWidth: '156px',
+    fontSize: '14px',
+    fontWeight: '500',
+    color: '#0f2137',
+  },
+};
+
+export default TrialSection;
