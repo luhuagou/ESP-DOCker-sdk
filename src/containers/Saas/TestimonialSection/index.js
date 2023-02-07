@@ -89,4 +89,26 @@ const TestimonialSection = ({
               <GlideSlide key={index}>
                 <Fragment>
                   <TextWrapper>
-          
+                    <i className="flaticon-quotes" />
+                    <Text content={item.content} {...commentStyle} />
+                    <ClientName>
+                      <Heading content={item.name} {...nameStyle} />
+                      <Heading
+                        content={item.career}
+                        {...designationStyle}
+                      />
+                    </ClientName>
+                  </TextWrapper>
+                  <ImageWrapper>
+                    <RoundWrapper>
+                      <Img fluid={item.photo.fluid} />
+                    </RoundWrapper>
+                    <Button
+                      variant="fab"
+                      icon={<i className={Data.saasJson.Testimonial[index].social_icon} />}
+                      aria-label="social"
+                    />
+                  </ImageWrapper>
+                </Fragment>
+              </GlideSlide>
+            ))}
