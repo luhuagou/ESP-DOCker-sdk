@@ -153,4 +153,43 @@ TestimonialSection.defaultProps = {
   commentStyle: {
     color: '#0f2137',
     fontWeight: '400',
-    fontSize: ['22px', '22px', '22px', 
+    fontSize: ['22px', '22px', '22px', '30px'],
+    lineHeight: '1.72',
+    mb: '47px',
+  },
+  // client name style
+  nameStyle: {
+    as: 'h3',
+    color: '#343d48',
+    fontWeight: '500',
+    fontSize: '16px',
+    lineHeight: '30px',
+    mb: 0,
+  },
+  // client designation style
+  designationStyle: {
+    as: 'h5',
+    color: 'rgba(52, 61, 72, 0.8)',
+    fontWeight: '400',
+    fontSize: '16px',
+    lineHeight: '30px',
+    mb: 0,
+    ml: ['0', '10px'],
+  },
+  // glide slider nav controls style
+  btnWrapperStyle: {
+    position: 'absolute',
+    bottom: '62px',
+    left: '12px',
+  },
+  // next / prev btn style
+  btnStyle: {
+    minWidth: 'auto',
+    minHeight: 'auto',
+    mr: '13px',
+    fontSize: '16px',
+    color: '#343d484d',
+  },
+};
+
+export default TestimonialSection;
