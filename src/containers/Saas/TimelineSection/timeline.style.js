@@ -43,4 +43,63 @@ export const TimelineItem = styled.div`
   margin-bottom: 90px;
   padding-left: 50px;
   &:first-child {
-    &:be
+    &:before {
+      display: none;
+    }
+  }
+  &:last-child {
+    margin-bottom: 0;
+    &:after {
+      display: none;
+    }
+  }
+
+  &:hover {
+    ${TimelineDot} {
+      &:after {
+        background: #5268db;
+      }
+    }
+  }
+
+  &:after,
+  &:before {
+    content: '';
+    position: absolute;
+    height: calc(50% + 45px);
+    width: 2px;
+    background: #f0f0f1;
+    left: 9px;
+    @media (max-width: 480px) {
+      left: 7px;
+    }
+  }
+
+  &:before {
+    bottom: 50%;
+  }
+
+  &:after {
+    top: 50%;
+  }
+
+  @media (max-width: 990px) {
+    margin-bottom: 60px;
+  }
+  @media (max-width: 480px) {
+    padding-left: 30px;
+  }
+`;
+
+export const TimelineIndex = styled.div``;
+
+export const TimelineContent = styled.div`
+  margin-left: 30px;
+  @media (max-width: 480px) {
+    margin-left: 20px;
+  }
+`;
+
+export const Hidden = styled.div`
+  overflow: hidden;
+`;
