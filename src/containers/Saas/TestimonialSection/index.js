@@ -112,3 +112,45 @@ const TestimonialSection = ({
                 </Fragment>
               </GlideSlide>
             ))}
+          </Fragment>
+        </GlideCarousel>
+      </Container>
+    </TestimonialSectionWrapper>
+  );
+};
+
+// TestimonialSection style props
+TestimonialSection.propTypes = {
+  sectionHeader: PropTypes.object,
+  sectionTitle: PropTypes.object,
+  sectionSubTitle: PropTypes.object,
+  row: PropTypes.object,
+  col: PropTypes.object,
+  btnStyle: PropTypes.object,
+  btnWrapperStyle: PropTypes.object,
+  nameStyle: PropTypes.object,
+  commentStyle: PropTypes.object,
+  designationStyle: PropTypes.object,
+};
+
+// TestimonialSection default style
+TestimonialSection.defaultProps = {
+  // sub section default style
+  sectionSubTitle: {
+    as: 'span',
+    display: 'block',
+    fontSize: '14px',
+    letterSpacing: '0.15em',
+    fontWeight: '700',
+    color: '#5268db',
+    mb: '20px',
+    ml: 'auto',
+    mr: 'auto',
+    pl: '12px',
+    maxWidth: '954px',
+  },
+  // client comment style
+  commentStyle: {
+    color: '#0f2137',
+    fontWeight: '400',
+    fontSize: ['22px', '22px', '22px', 
