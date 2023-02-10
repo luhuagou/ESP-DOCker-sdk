@@ -8,4 +8,13 @@ Add Below Line at your package.json file:
 
 ```
 "script" : {
-"install
+"install": "install-peers"
+}
+
+```
+
+Then Run:
+
+```
+yarn or yarn install
+```
