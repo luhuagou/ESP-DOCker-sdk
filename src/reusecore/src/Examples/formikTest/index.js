@@ -120,4 +120,31 @@ const FormikTest = () => {
               >
                 {data.gender
                   ? data.gender.map((single, index) => {
-   
+                      return (
+                        <Field
+                          key={index}
+                          component={RadioButton}
+                          name="gender"
+                          id={single.value}
+                          value={single.value}
+                          label={single.label}
+                        />
+                      );
+                    })
+                  : ''}
+                {errors.gender && touched.gender ? (
+                  <ErrorMessageComponent error={errors.gender} />
+                ) : (
+                  ''
+                )}
+              </RadioGroupWithFormik>
+              <br />
+              <div>
+                <Select
+                  id="profession"
+                  type="select"
+                  options={data.profession}
+                  value={values.profession}
+                  error={errors.profession}
+                  touched={touched.profession}
+                  onChange={value => setFieldValu
