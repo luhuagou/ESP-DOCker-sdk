@@ -366,3 +366,98 @@ const App = () => {
             isChecked={true}
             labelText="Label Left"
             labelPosition="left"
+            switchColor="#ff5b60"
+            switchSize="46px"
+            onChange={value => {
+              console.log('Switch value: ', value);
+            }}
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Switch
+            labelText="Label Bottom"
+            onChange={value => {
+              console.log('Switch value: ', value);
+            }}
+            labelPosition="bottom"
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Switch
+            isChecked={true}
+            labelText="Label Right"
+            labelPosition="right"
+            switchColor="#fdb32a"
+            onChange={value => {
+              console.log('Switch value: ', value);
+            }}
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <h3>Select Component:</h3>
+        <div style={{ width: '300px' }}>
+          <Select options={optionsArray} labelText="Select" />
+          &nbsp;&nbsp;&nbsp;
+          <Select
+            options={optionsArray}
+            labelText="Multi Select"
+            isMulti={true}
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <div>
+          <h3>Box, Text and Heading Component:</h3>
+          <Box>
+            <Text content="Hello World" />
+            <Heading content="Hello Heading" />
+          </Box>
+          <br />
+          <br />
+          <h3>Flexbox, Text and Heading Component:</h3>
+          <Box flexBox justifyContent="center">
+            <Text content="Hello World" />
+            <Heading as="h1" content="Hello Heading" />
+          </Box>
+          <br />
+          <br />
+          <br />
+          <h3>Image</h3>
+          <Image src={DemoImage} alt="Demo Image" />
+          <br />
+          <br />
+          <br />
+          <Link href={'https://redq.io'} children={'RedQ.io'} />
+        </div>
+        <br />
+        <br />
+        <br />
+        <h3>Card</h3>
+        <Card>
+          <Image src={DemoImage} alt="Demo Image" />
+        </Card>
+        <br />
+        <br />
+        <br />
+        <h3>ListGrid</h3>
+        <ListGrid
+          data={[1, 2, 3, 4]}
+          columnWidth={1 / 4} //{[1, 1/2, 1/4]} responsive
+          component={() => (
+            <Card>
+              <Image src={DemoImage} alt="Demo Image" p={3} />
+            </Card>
+          )}
+        />
+        <br />
+        <br />
+        <br />
+        <Logo as="a" href="#" title="Logo" />
+        <Logo href="#" logoSrc={DemoImage} title="Logo" />
+      </div>
+    </ThemeProvider>
+  );
+};
+
+export default App;
