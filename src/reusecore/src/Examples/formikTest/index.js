@@ -147,4 +147,32 @@ const FormikTest = () => {
                   value={values.profession}
                   error={errors.profession}
                   touched={touched.profession}
-                  onChange={value => setFieldValu
+                  onChange={value => setFieldValue('profession', value)}
+                  onBlur={() => setFieldTouched('profession', true)}
+                />
+                {errors.profession && touched.profession ? (
+                  <ErrorMessageComponent error={errors.profession} />
+                ) : (
+                  ''
+                )}
+              </div>
+              <br />
+              <Fragment>
+                <Button
+                  type="submit"
+                  disabled={isSubmitting}
+                  title="Submit Form"
+                  colors="primary"
+                  variant="outlined"
+                />
+              </Fragment>
+              <br />
+              <Fragment>
+                <Button
+                  type="button"
+                  className="outline"
+                  onClick={handleReset}
+                  disabled={!dirty || isSubmitting}
+                  title="Reset"
+                  colors="primaryWithBg"
+                  va
