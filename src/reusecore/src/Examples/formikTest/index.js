@@ -92,4 +92,32 @@ const FormikTest = () => {
                 ) : (
                   ''
                 )}
-         
+              </div>
+              <br />
+              <div>
+                <input
+                  type="password"
+                  name="password"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.password}
+                />
+                {errors.password && touched.password ? (
+                  <ErrorMessageComponent error={errors.password} />
+                ) : (
+                  ''
+                )}
+              </div>
+              <br />
+              <RadioGroupWithFormik
+                id="gender"
+                label="Choose One of these please!"
+                value={values.gender}
+                error={errors.gender}
+                touched={touched.gender}
+                onChange={value => setFieldValue('gender', value)}
+                onBlur={() => setFieldTouched('gender', true)}
+              >
+                {data.gender
+                  ? data.gender.map((single, index) => {
+   
