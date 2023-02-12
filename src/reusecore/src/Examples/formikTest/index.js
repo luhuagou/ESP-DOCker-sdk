@@ -54,3 +54,42 @@ const RadioGroupWithFormik = ({
   );
 };
 
+const FormikTest = () => {
+  // render component
+  return (
+    <Fragment>
+      <Formik
+        initialValues={initialValues}
+        validate={validateFunc}
+        onSubmit={onSubmitFunc}
+      >
+        {props => {
+          const {
+            values,
+            errors,
+            touched,
+            dirty,
+            handleChange,
+            handleBlur,
+            handleSubmit,
+            isSubmitting,
+            handleReset,
+            setFieldValue,
+            setFieldTouched
+          } = props;
+          return (
+            <form onSubmit={handleSubmit}>
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.email}
+                />
+                {errors.email && touched.email ? (
+                  <ErrorMessageComponent error={errors.email} />
+                ) : (
+                  ''
+                )}
+         
