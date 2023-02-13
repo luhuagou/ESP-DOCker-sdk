@@ -175,4 +175,16 @@ const FormikTest = () => {
                   disabled={!dirty || isSubmitting}
                   title="Reset"
                   colors="primaryWithBg"
-                  va
+                  varient="textButton"
+                />
+              </Fragment>
+              <DisplayFormikState {...props} />
+            </form>
+          );
+        }}
+      </Formik>
+    </Fragment>
+  );
+};
+
+export default FormikTest;
