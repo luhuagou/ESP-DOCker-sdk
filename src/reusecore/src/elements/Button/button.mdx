@@ -37,4 +37,37 @@ import Button from './';
         type="button"
         onClick={() => {
           console.log('hello');
-   
+        }}
+        colors="secondaryWithBg"
+        variant="contained"
+        isLoading={true}
+        loader={<Loader loaderColor="white" />}
+      />
+      <span style={{ marginRight: '10px' }} />
+      <Button
+        title="Extended Fab"
+        type="button"
+        onClick={() => {
+          console.log('hello');
+        }}
+        colors="warningWithBg"
+        variant="extendedFab"
+        icon={<Icon icon={arrow_right} />}
+      />
+      <span style={{ marginRight: '10px' }} />
+      <Button
+        type="button"
+        onClick={() => {
+          console.log('hello');
+        }}
+        colors="errorWithBg"
+        variant="fab"
+        icon={<Icon icon={arrow_right} />}
+      />
+    </>
+  </ThemeProvider>
+</Playground>
+
+## Properties
+
+<PropsTable of={Button} />
