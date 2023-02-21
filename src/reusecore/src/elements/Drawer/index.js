@@ -59,4 +59,14 @@ Drawer.propTypes = {
   /** Set drawer position left || right || top || bottom. */
   placement: PropTypes.oneOf(['left', 'right', 'top', 'bottom']),
 
-  /** drawerHandler could be button, icon, string 
+  /** drawerHandler could be button, icon, string or any component */
+  drawerHandler: PropTypes.element.isRequired
+};
+
+Drawer.defaultProps = {
+  width: '300px',
+  handler: false,
+  level: null
+};
+
+export default Drawer;
