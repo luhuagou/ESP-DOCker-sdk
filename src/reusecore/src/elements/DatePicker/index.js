@@ -91,4 +91,33 @@ class DatePicker extends Component {
               : null}
             <SingleDatePicker {...datePickerPropsOptions} />
             <div>
-            
+              <div />
+            </div>
+            {position === 'bottom' && LabelField}
+          </label>
+        </DatePickerStyle>
+      </Fragment>
+    );
+  }
+}
+
+DatePicker.propTypes = {
+  /** labelText of the date-picker field */
+  labelText: PropTypes.string,
+  /** labelText of the date-picker field */
+  labelPosition: PropTypes.oneOf(['top', 'bottom', 'right', 'left']),
+  /** placeholder of the date-picker field */
+  placeholder: PropTypes.string,
+  /** disabled of the date-picker field */
+  disabled: PropTypes.bool,
+  /** showClearDate of the date-picker field */
+  showClearDate: PropTypes.bool,
+  /** isRTL of the date-picker field */
+  isRTL: PropTypes.bool,
+  /** orientation of the date-picker field */
+  orientation: PropTypes.oneOf(['horizontal', 'vertical']),
+  /** anchorDirection of the date-picker field */
+  anchorDirection: PropTypes.oneOf(['left', 'right']),
+  /** withPortal of the date-picker field */
+  withPortal: PropTypes.bool,
+  /** withFullScreenPor
