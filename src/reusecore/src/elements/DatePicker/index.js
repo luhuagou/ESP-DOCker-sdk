@@ -120,4 +120,13 @@ DatePicker.propTypes = {
   anchorDirection: PropTypes.oneOf(['left', 'right']),
   /** withPortal of the date-picker field */
   withPortal: PropTypes.bool,
-  /** withFullScreenPor
+  /** withFullScreenPortal of the date-picker field */
+  withFullScreenPortal: PropTypes.bool
+};
+
+/** RangeBox default proptype */
+DatePicker.defaultProps = {
+  labelText: 'ReuseCore DatePicker',
+  labelPosition: 'top'
+};
+export default DatePicker;
