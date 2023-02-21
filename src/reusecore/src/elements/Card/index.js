@@ -48,4 +48,7 @@ Card.propTypes = {
   ...cards.propTypes
 };
 
-Card.defaultPro
+Card.defaultProps = {
+  boxShadow: '0px 20px 35px rgba(0, 0, 0, 0.05)'
+};
+export default Card;
