@@ -56,4 +56,39 @@ class DatePicker extends Component {
     }
     // label control **************
     const position = labelPosition || 'right';
-    const
+    const LabelField = labelText && (
+      <span className="reusecore__field-label">{labelText}</span>
+    );
+    // className prop checking **************
+    if (className) {
+      addAllClasses.push(className);
+    }
+
+    // DatePicker Props List
+    const datePickerPropsOptions = {
+      id: item && item.id ? item.id : 'unique_id',
+      date,
+      focused,
+      placeholder,
+      disabled,
+      isRTL,
+      showClearDate,
+      orientation,
+      anchorDirection,
+      withPortal,
+      withFullScreenPortal,
+      onFocusChange: this.onFocusChangeFunc,
+      onDateChange: this.onDateChangeFunc,
+      ...props
+    };
+    // moment.locale('pl');
+    return (
+      <Fragment>
+        <DatePickerStyle className={addAllClasses.join(' ')}>
+          <label>
+            {position === 'left' || position === 'right' || position === 'top'
+              ? LabelField
+              : null}
+            <SingleDatePicker {...datePickerPropsOptions} />
+            <div>
+            
