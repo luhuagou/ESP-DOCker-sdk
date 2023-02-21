@@ -23,4 +23,40 @@ const Drawer = ({
   }
 
   return (
-    <Fra
+    <Fragment>
+      <RcDrawer
+        open={open}
+        onMaskClick={toggleHandler}
+        className={addAllClasses.join(' ')}
+        {...props}
+      >
+        <div className="reusecore-drawer__close" onClick={toggleHandler} style={closeButtonStyle}>
+          {closeButton}
+        </div>
+        {children}
+      </RcDrawer>
+      <div
+        className="reusecore-drawer__handler"
+        style={{ display: 'inline-block' }}
+        onClick={toggleHandler}
+      >
+        {drawerHandler}
+      </div>
+    </Fragment>
+  );
+};
+
+Drawer.propTypes = {
+  /** ClassName of the Drawer */
+  className: PropTypes.string,
+
+  /** Used to render icon, button, text or any elements inside the closeButton prop. */
+  closeButton: PropTypes.element,
+
+  /** Set drawer width. Default value is 300px. */
+  width: PropTypes.string,
+
+  /** Set drawer position left || right || top || bottom. */
+  placement: PropTypes.oneOf(['left', 'right', 'top', 'bottom']),
+
+  /** drawerHandler could be button, icon, string 
