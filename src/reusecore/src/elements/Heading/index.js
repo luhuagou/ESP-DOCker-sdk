@@ -66,4 +66,15 @@ Heading.propTypes = {
   letterSpacing: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
-    PropTypes.arrayOf(PropTypes.one
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+  color: PropTypes.string,
+  ...base.propTypes
+};
+
+Heading.defaultProps = {
+  as: 'h1',
+  mt: 0,
+  mb: '1rem',
+  fontWeight: 'bold'
+};
