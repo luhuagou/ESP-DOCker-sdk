@@ -80,4 +80,63 @@ const InputField = styled.div`
     &:focus {
       outline: none;
       border-color: ${themeGet('colors.primary', '#028489')};
-   
+    }
+  }
+
+  textarea {
+    min-height: 150px;
+  }
+
+  /* Input material style */
+  &.is-material {
+    label {
+      position: absolute;
+      left: 0;
+      top: 10px;
+    }
+
+    input,
+    textarea {
+      border-radius: 0;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    textarea {
+      min-height: 40px;
+      padding-bottom: 0;
+    }
+
+    .highlight {
+      position: absolute;
+      height: 1px;
+      top: auto;
+      left: 50%;
+      bottom: 0;
+      width: 0;
+      pointer-events: none;
+      transition: all 0.2s ease;
+    }
+
+    /* If input has icon then these styel */
+    &.icon-left,
+    &.icon-right {
+      .field-wrapper {
+        flex-direction: row-reverse;
+        > .input-icon {
+          width: auto;
+        }
+        > input {
+          flex: 1;
+        }
+      }
+    }
+
+    /* When icon position in left */
+    &.icon-left {
+      .field-wrapper {
+        > input {
+          padd
