@@ -139,4 +139,62 @@ const InputField = styled.div`
     &.icon-left {
       .field-wrapper {
         > input {
-          padd
+          padding-left: 20px;
+        }
+      }
+      label {
+        top: -15px;
+        font-size: 12px;
+      }
+    }
+
+    /* When icon position in right */
+    &.icon-right {
+      .field-wrapper {
+        > input {
+          padding-right: 20px;
+        }
+      }
+    }
+
+    /* Material input focus style */
+    &.is-focus {
+      input {
+        border-color: ${themeGet('colors.inactiveIcon', '#ebebeb')};
+      }
+
+      label {
+        top: -16px;
+        font-size: 12px;
+        color: ${themeGet('colors.textColor', '#484848')};
+      }
+
+      .highlight {
+        width: 100%;
+        height: 2px;
+        background-color: ${themeGet('colors.primary', '#028489')};
+        left: 0;
+      }
+    }
+  }
+`;
+
+const EyeButton = styled.button`
+  width: 43px;
+  height: 40px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+
+  > span {
+    width:
