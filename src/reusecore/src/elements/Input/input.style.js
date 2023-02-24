@@ -197,4 +197,44 @@ const EyeButton = styled.button`
   background-color: transparent;
 
   > span {
-    width:
+    width: 12px;
+    height: 12px;
+    display: block;
+    border: solid 1px ${themeGet('colors.textColor', '#484848')};
+    border-radius: 75% 15%;
+    transform: rotate(45deg);
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      left: 3px;
+      top: 3px;
+      position: absolute;
+      border: solid 1px ${themeGet('colors.textColor', '#484848')};
+    }
+  }
+
+  &.eye-closed {
+    > span {
+      &:after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 20px;
+        left: calc(50% - 1px / 2);
+        top: -4px;
+        position: absolute;
+        background-color: ${themeGet('colors.textColor', '#484848')};
+        transform: rotate(-12deg);
+      }
+    }
+  }
+`;
+
+export { EyeButton };
+
+export default InputField;
