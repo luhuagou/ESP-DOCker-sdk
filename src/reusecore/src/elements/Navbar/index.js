@@ -17,3 +17,37 @@ const Navbar = ({ className, children, navbarStyle, ...props }) => {
     </NavbarStyle>
   );
 };
+
+Navbar.propTypes = {
+  /** ClassName of the Navbar. Default class is reusecore__navbar*/
+  className: PropTypes.string,
+
+  /** Used to render menu, logo, button or any component that
+   * you want to show in navbar. */
+  children: PropTypes.element,
+
+  width: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+
+  height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+
+  space: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+
+  borderRadius: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+
+  boxShadow: PropTypes.string
