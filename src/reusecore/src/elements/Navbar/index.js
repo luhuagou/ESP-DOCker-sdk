@@ -50,4 +50,22 @@ Navbar.propTypes = {
     PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
   ]),
 
-  boxShadow: PropTypes.string
+  boxShadow: PropTypes.string,
+
+  color: PropTypes.string,
+
+  display: PropTypes.string,
+
+  alignItems: PropTypes.string,
+
+  justifyContent: PropTypes.string,
+
+  flexDirection: PropTypes.string,
+
+  flexWrap: PropTypes.string
+};
+
+/** Navbar default proptype */
+Navbar.defaultProps = {};
+
+export default Navbar;
