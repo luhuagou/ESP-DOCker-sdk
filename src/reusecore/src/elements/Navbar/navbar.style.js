@@ -20,4 +20,20 @@ const NavbarStyle = styled.nav`
   min-height: 56px;
   padding: 10px 16px;
   
-  /* Style sy
+  /* Style system supported prop */
+  ${display}
+  ${alignItems}
+  ${justifyContent}
+  ${flexDirection}
+  ${flexWrap}
+  ${width}
+  ${height}
+  ${color}
+  ${space}
+  ${boxShadow}
+  ${borderRadius}
+`;
+
+NavbarStyle.displayName = 'NavbarStyle';
+
+export default NavbarStyle;
