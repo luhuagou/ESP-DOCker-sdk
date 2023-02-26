@@ -68,4 +68,32 @@ const RadioBoxStyle = styled.div`
       width: 16px;
       height: 16px;
       border-radius: 50%;
-      bord
+      border: 1px solid ${themeGet('colors.borderColor', '#dadada')};
+      position: relative;
+      transition: background-color 0.3s ease;
+      &::after {
+        content: '';
+        display: flex;
+        width: 8px;
+        height: 8px;
+        transform: scale(0.8);
+        border-radius: 50%;
+        background-color: ${themeGet('colors.primary', '#028489')};
+        opacity: 0;
+        visibility: hidden;
+        transition-property: opacity, visibility;
+        transition-duration: 0.3s;
+      }
+    }
+  }
+
+  /* support base component props */
+  ${base}
+`;
+
+// prop types can also be added from the style functions
+RadioBoxStyle.propTypes = {};
+
+RadioBoxStyle.displayName = 'RadioBoxStyle';
+
+export default RadioBoxStyle;
