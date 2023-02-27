@@ -10,4 +10,43 @@ import {
 } from 'styled-system';
 import { base, themed } from '../base';
 
-con
+const TextWrapper = styled('p')(
+  base,
+  fontFamily,
+  fontWeight,
+  textAlign,
+  lineHeight,
+  letterSpacing,
+  themed('Text')
+);
+
+const Text = ({ content, ...props }) => (
+  <TextWrapper {...props}>{content}</TextWrapper>
+);
+
+export default Text;
+
+Text.propTypes = {
+  content: PropTypes.string,
+  as: PropTypes.string,
+  mt: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+  mb: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+  fontFamily: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+  fontWeight: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+    PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))
+  ]),
+  textAlign: PropTypes.oneOfType([
