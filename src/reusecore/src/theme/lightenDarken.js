@@ -22,4 +22,39 @@ const changeColor = (color, ratio, darker) => {
       new RegExp(
         '^rgba?\\(\\s*' +
           '(\\d|[1-9]\\d|1\\d{2}|2[0-4][0-9]|25[0-5])' +
-    
+          '\\s*,\\s*' +
+          '(\\d|[1-9]\\d|1\\d{2}|2[0-4][0-9]|25[0-5])' +
+          '\\s*,\\s*' +
+          '(\\d|[1-9]\\d|1\\d{2}|2[0-4][0-9]|25[0-5])' +
+          '(?:\\s*,\\s*' +
+          '(0|1|0?\\.\\d+))?' +
+          '\\s*\\)$',
+        'i'
+      )
+    ),
+    alpha = !!rgb && rgb[4] != null ? rgb[4] : null,
+    // Convert hex to decimal
+    decimal = !!rgb
+      ? [rgb[1], rgb[2], rgb[3]]
+      : color
+          .replace(
+            /^#?([a-f0-9][a-f0-9])([a-f0-9][a-f0-9])([a-f0-9][a-f0-9])/i,
+            function() {
+              return (
+                parseInt(arguments[1], 16) +
+                ',' +
+                parseInt(arguments[2], 16) +
+                ',' +
+                parseInt(arguments[3], 16)
+              );
+            }
+          )
+          .split(/,/);
+
+  // Return RGB(A)
+  return !!rgb
+    ? 'rgb' +
+        (alpha !== null ? 'a' : '') +
+        '(' +
+        Math[darker ? 'max' : 'min'](
+          parseInt(decim
