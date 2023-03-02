@@ -9,4 +9,11 @@ const colorStyle = variant({
   prop: 'colors'
 });
 
-const s
+const sizeStyle = variant({
+  key: 'sizeStyles',
+  prop: 'size'
+});
+
+export const cards = variant({ key: 'cards' });
+
+export { buttonStyle, colorStyle, sizeStyle };
