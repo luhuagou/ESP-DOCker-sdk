@@ -57,4 +57,40 @@ const changeColor = (color, ratio, darker) => {
         (alpha !== null ? 'a' : '') +
         '(' +
         Math[darker ? 'max' : 'min'](
-          parseInt(decim
+          parseInt(decimal[0], 10) + difference,
+          darker ? 0 : 255
+        ) +
+        ', ' +
+        Math[darker ? 'max' : 'min'](
+          parseInt(decimal[1], 10) + difference,
+          darker ? 0 : 255
+        ) +
+        ', ' +
+        Math[darker ? 'max' : 'min'](
+          parseInt(decimal[2], 10) + difference,
+          darker ? 0 : 255
+        ) +
+        (alpha !== null ? ', ' + alpha : '') +
+        ')'
+    : // Return hex
+      [
+        '#',
+        pad(
+          Math[darker ? 'max' : 'min'](
+            parseInt(decimal[0], 10) + difference,
+            darker ? 0 : 255
+          ).toString(16),
+          2
+        ),
+        pad(
+          Math[darker ? 'max' : 'min'](
+            parseInt(decimal[1], 10) + difference,
+            darker ? 0 : 255
+          ).toString(16),
+          2
+        ),
+        pad(
+          Math[darker ? 'max' : 'min'](
+            parseInt(decimal[2], 10) + difference,
+            darker ? 0 : 255
+          ).toSt
