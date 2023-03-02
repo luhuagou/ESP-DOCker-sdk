@@ -93,4 +93,16 @@ const changeColor = (color, ratio, darker) => {
           Math[darker ? 'max' : 'min'](
             parseInt(decimal[2], 10) + difference,
             darker ? 0 : 255
-          ).toSt
+          ).toString(16),
+          2
+        )
+      ].join('');
+};
+const lightenColor = (color, ratio) => {
+  return changeColor(color, ratio, false);
+};
+const darkenColor = (color, ratio) => {
+  return changeColor(color, ratio, true);
+};
+
+export { lightenColor, darkenColor };
