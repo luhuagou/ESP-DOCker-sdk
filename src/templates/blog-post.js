@@ -54,4 +54,48 @@ const BlogPostTemplate = (props) => {
                   title={node.title || node.slug}
                   url={`/blog/${node.slug}`}
                   image={
-                    node.cover 
+                    node.cover == null
+                      ? null
+                      : node.cover.fluid
+                  }
+                  tags={node.tags.map(tag => tag.tagName)}
+                />
+              </RelatedPostItem>
+            ))}
+          </RelatedPostItems>
+        </RelatedPostWrapper>
+      )}
+    </Layout>
+  )
+}
+
+export default BlogPostTemplate
+
+export const pageQuery = graphql`
+  query BlogPostBySlug($slug: String!) {
+    contentfulBlog(
+      slug: { eq: $slug }
+      node_locale: { eq: "en-US" }
+    ) {
+        node_locale
+        content {
+          content
+        }
+        title
+        tags {
+          tagName
+        }
+        date(formatString: "DD MMMM, YYYY")
+        cover {
+          fluid(maxWidth: 1500){
+            ...GatsbyContentfulFluid_withWebp
+          }
+        }
+        slug
+        readTime
+        authorName
+        authorTwitterLink
+        authorTwitterName
+        authorPhoto {
+          fluid(maxWidth: 500){
+            ...GatsbyContentfulF
