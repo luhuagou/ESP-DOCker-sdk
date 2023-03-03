@@ -98,4 +98,38 @@ export const pageQuery = graphql`
         authorTwitterName
         authorPhoto {
           fluid(maxWidth: 500){
-            ...GatsbyContentfulF
+            ...GatsbyContentfulFluid_withWebp
+          }
+        }
+      }
+
+    allContentfulBlog (
+      sort: { fields: [date], order: DESC }
+      limit: 3
+      filter: {
+        node_locale: { eq: "en-US"}
+      }
+    ) {
+      edges {
+        node {
+          node_locale
+          content {
+            content
+          }
+          title
+          tags {
+            tagName
+          }
+          date(formatString: "DD MMMM")
+          cover {
+            fluid(maxWidth: 1500){
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
+          slug
+          readTime
+        }
+      }
+    }
+  }`
+
